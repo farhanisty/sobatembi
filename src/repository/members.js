@@ -19,55 +19,55 @@ export const members = [
   {
     id: 2,
     name: "Erina Dyah Sukmawati",
-    nim: "123230139",
+    nim: "141230625",
     avatar: FotoErina
   },
   {
     id: 3,
     name: "Muhammad Arif",
-    nim: "123230139",
+    nim: "112230075",
     avatar: FotoArif
   },
   {
     id: 4,
-    name: "Irfani Fuspita Dewi",
-    nim: "123230139",
+    name: "Irfani Fuspita Devi",
+    nim: "111230033",
     avatar: FotoIrfani
   },
   {
     id: 5,
     name: "Khotimatu Tsamaaniya",
-    nim: "123230139",
+    nim: "121220177",
     avatar: FotoKhotim
   },
   {
     id: 6,
     name: "Chayrul Sholeh Setiawan",
-    nim: "123230139",
+    nim: "114230139",
     avatar: FotoArwan
   },
   {
     id: 7,
     name: "Alifah Hanna Safitri",
-    nim: "123230139",
+    nim: "134230126",
     avatar: FotoAna
   },
   {
     id: 8,
     name: "Aulia Risky Febriyanti",
-    nim: "123230139",
+    nim: "153230072",
     avatar: FotoAulia
   },
   {
     id: 9,
     name: "Yesa Revina Sungkusara",
-    nim: "123230139",
+    nim: "142230470",
     avatar: FotoYesa
   },
   {
     id: 10,
     name: "Nauval Akbar Putra P",
-    nim: "123230139",
+    nim: "113230050",
     avatar: FotoNauval
   },
 ]
