@@ -28,8 +28,12 @@ export default function Footer() {
               <div className="foot-col-title">Navigasi</div>
               <a href="tentang.html">Tentang</a>
               <a href="proker.html">Program Kerja</a>
-              <a href="timeline.html">Timeline</a>
-              <a href="kontak.html">Kontak</a>
+            </div>
+
+            <div>
+              <div className="foot-col-title">Media Sosial</div>
+              <a href="tentang.html">Instagram</a>
+              <a href="proker.html">Tiktok</a>
             </div>
           </div>
         </div>

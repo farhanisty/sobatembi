@@ -1,5 +1,7 @@
 import Footer from "../components/Footer"
+import MemberCard from "../components/MemberCard"
 import Navbar from "../components/Navbar"
+import { members } from "../repository/members"
 
 export default function Tentang() {
   return (
@@ -39,36 +41,12 @@ export default function Tentang() {
       <section style={{ paddingTop: 0 }} >
         <div className="container">
           <div className="section-head reveal">
-            <span className="eyebrow">Tim</span>
-            <h2>Anggota Kelompok</h2>
-            <p>Mahasiswa dari berbagai program studi yang tergabung dalam kelompok KKN ini.</p>
+            <span className="eyebrow">Tim</span> <h2>Anggota Kelompok</h2>
           </div>
           <div className="team-grid" data-stagger>
-            <div className="team-card reveal">
-              <div className="team-avatar"></div>
-              <h4>[Nama Anggota 1]</h4>
-              <span>[Program Studi]</span>
-            </div>
-            <div className="team-card reveal">
-              <div className="team-avatar"></div>
-              <h4>[Nama Anggota 2]</h4>
-              <span>[Program Studi]</span>
-            </div>
-            <div className="team-card reveal">
-              <div className="team-avatar"></div>
-              <h4>[Nama Anggota 3]</h4>
-              <span>[Program Studi]</span>
-            </div>
-            <div className="team-card reveal">
-              <div className="team-avatar"></div>
-              <h4>[Nama Anggota 4]</h4>
-              <span>[Program Studi]</span>
-            </div>
-            <div className="team-card reveal">
-              <div className="team-avatar"></div>
-              <h4>[Nama Anggota 5]</h4>
-              <span>[Program Studi]</span>
-            </div>
+            {members.map((member, index) => {
+              return <MemberCard key={index} member={member} />
+            })}
           </div>
         </div>
       </section>

@@ -4,6 +4,35 @@ import ProkerCard from "../components/ProkerCard"
 import Timeline from "../components/Timeline"
 
 export default function Home() {
+  const timelines = [
+    {
+      date: "01 Juli 2026",
+      title: "Pelepasan KKN",
+    },
+    {
+      date: "10 Juli 2026",
+      title: "Rangkaian Kegiatan 'Hari Anak Nasional' #1",
+      description: "Lomba keagamaan dengan anak TPA.",
+      badge: "utama"
+    },
+    {
+      date: "12 Juli 2026",
+      title: "Pelaksanaan Proker Biopori",
+      badge: "utama"
+    },
+    {
+      date: "18 Juli 2026",
+      title: "Rangkaian Kegiatan 'Hari Anak Nasional' #2",
+      description: "Lomba mewarnai dan kolase yang dilaksanakan kolaborasi dengan sanggar tari.",
+      badge: "utama"
+    },
+    {
+      date: "31 Juli 2026",
+      title: "Penarikan KKN",
+      description: "Dilaksanakan di Kelurahan Timbulharjo.",
+    },
+  ];
+
   return (
     <>
       <Navbar />
@@ -73,7 +102,7 @@ export default function Home() {
             <h2>Lini masa kegiatan</h2>
             <p>Sekilas rangkaian kegiatan kami dari awal hingga akhir masa KKN.</p>
           </div>
-          <Timeline />
+          <Timeline timelines={timelines} />
         </div >
       </section >
 

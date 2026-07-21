@@ -695,6 +695,10 @@ section {
   background: linear-gradient(140deg, var(--sunglow), var(--wheat));
   margin-bottom: 14px;
   transition: transform 0.4s var(--ease);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .team-card:hover .team-avatar {
