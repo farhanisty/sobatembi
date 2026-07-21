@@ -1,6 +1,7 @@
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import ProkerCard from "../components/ProkerCard"
+import Timeline from "../components/Timeline"
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         <div className="hero-blob b2"></div>
         <div className="container">
           <div className="hero-content">
-            <span className="eyebrow">KKN.84.022</span>
+            <span className="eyebrow">KKN UPNYK AB 84.022</span>
             <h1>Membangun <span className="accent">Tembi</span> lewat kerja nyata mahasiswa.</h1>
             <p className="lead">Dokumentasi program kerja kelompok KKN kami di Dusun Tembi, Timbulharjo, Sewon, Bantul.</p>
             <div className="hero-actions">
@@ -72,11 +73,7 @@ export default function Home() {
             <h2>Lini masa kegiatan</h2>
             <p>Sekilas rangkaian kegiatan kami dari awal hingga akhir masa KKN.</p>
           </div>
-          <div className="reveal" style={{
-            textAlign: "left"
-          }}>
-            <a href="timeline.html" className="btn btn-primary">Lihat Timeline Lengkap</a>
-          </div>
+          <Timeline />
         </div >
       </section >
 
