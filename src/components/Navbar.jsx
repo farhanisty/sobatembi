@@ -25,8 +25,7 @@ export default function Navbar() {
       <div className="container">
         <a href="index.html" className="nav-brand">
           <div className="nav-logos">
-            <img src={LogoKKN} alt="Logo Universitas" />
-            <img src={LogoUniv} alt="Logo Kelompok KKN" />
+            <img src={LogoKKN} alt="Logo Sobatembi" />
           </div>
           Sobatembi
         </a>

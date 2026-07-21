@@ -3,6 +3,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import Navbar from "./components/Navbar"
 import { useScrollReveal } from './hooks/useScrollReveal'
+import ProkerCard from './components/ProkerCard'
 
 function App() {
   useScrollReveal();
@@ -17,8 +18,7 @@ function App() {
           <div className="hero-content">
             <span className="eyebrow">KKN.84.022</span>
             <h1>Membangun <span className="accent">Tembi</span> lewat kerja nyata mahasiswa.</h1>
-            <p className="lead">Dokumentasi program kerja kelompok KKN kami di [Nama Desa, Kecamatan, Kabupaten] — mulai dari
-              proker utama hingga proker pendukung yang kami jalankan selama masa pengabdian.</p>
+            <p className="lead">Dokumentasi program kerja kelompok KKN kami di Dusun Tembi, Timbulharjo, Sewon, Bantul.</p>
             <div className="hero-actions">
               <a href="proker.html" className="btn btn-primary">Lihat Program Kerja</a>
               <a href="tentang.html" className="btn btn-outline">Tentang Kelompok Kami</a>
@@ -49,33 +49,23 @@ function App() {
             <p>Ringkasan proker unggulan kami. Selengkapnya ada di halaman Program Kerja.</p>
           </div>
           <div className="grid-cards" data-stagger>
-            <article className="card-proker reveal">
-              <div className="thumb">01</div>
-              <div className="body">
-                <span className="badge utama">Proker Utama</span>
-                <h3>Pembuatan Biopori</h3>
-                <p>[Deskripsi singkat 1–2 kalimat tentang proker ini dan manfaatnya bagi warga desa.]</p>
-                <a href="proker-1.html" className="card-link">Lihat detail <span className="arrow">→</span></a>
-              </div>
-            </article>
-            <article className="card-proker reveal">
-              <div className="thumb">02</div>
-              <div className="body">
-                <span className="badge utama">Proker Utama</span>
-                <h3>Pendataan Golongan Darah</h3>
-                <p>[Deskripsi singkat 1–2 kalimat tentang proker ini dan manfaatnya bagi warga desa.]</p>
-                <a href="proker-2.html" className="card-link">Lihat detail <span className="arrow">→</span></a>
-              </div>
-            </article>
-            <article className="card-proker reveal">
-              <div className="thumb">03</div>
-              <div className="body">
-                <span className="badge pendukung">Proker Pendukung</span>
-                <h3>Rangkaian Kegiatan Hari Anak Nasional</h3>
-                <p>[Deskripsi singkat 1–2 kalimat tentang proker ini dan manfaatnya bagi warga desa.]</p>
-                <a href="proker-3.html" className="card-link">Lihat detail <span className="arrow">→</span></a>
-              </div>
-            </article>
+            <ProkerCard
+              title="Pembuatan Biopori"
+              description="adalah pokoknya"
+              href="proker-1.html"
+            />
+
+            <ProkerCard
+              title="Pendataan Golongan Darah"
+              description="adalah pokoknya"
+              href="proker-1.html"
+            />
+
+            <ProkerCard
+              title="Rangkaian Kegiatan Hari Anak Nasional"
+              description="adalah pokoknya"
+              href="proker-1.html"
+            />
           </div>
         </div>
       </section>
