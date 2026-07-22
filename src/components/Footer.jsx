@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container">
         <div className="foot-top">
           <div>
-            <h4>KKN [Nama Desa]</h4>
+            <h4>KKN Tembi</h4>
             <p
               style={{
                 color: "rgba(249, 227, 182, 0.75)",
@@ -32,8 +32,8 @@ export default function Footer() {
 
             <div>
               <div className="foot-col-title">Media Sosial</div>
-              <a href="tentang.html">Instagram</a>
-              <a href="proker.html">Tiktok</a>
+              <a href="https://www.instagram.com/sobatembi" target="_blank">Instagram</a>
+              <a href="https://www.tiktok.com/@sobatembi" target="_blank">Tiktok</a>
             </div>
           </div>
         </div>
