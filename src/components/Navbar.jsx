@@ -3,7 +3,7 @@ import LogoKKN from "../assets/logo-kkn.png"
 import LogoUniv from "../assets/logo-univ.png"
 import { useState, useEffect } from "react";
 
-export default function Navbar() {
+export default function Navbar({ active = null }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -33,9 +33,9 @@ export default function Navbar() {
 
         <button className="nav-toggle" aria-label="Buka menu">☰</button>
         <ul className="nav-links">
-          <li><a href="/" className="active">Beranda</a></li>
-          <li><a href="/tentang">Tentang</a></li>
-          <li><a href="/proker">Program Kerja</a></li>
+          <li><a href="/" className={`${active == "home" ? "active" : ""}`}>Beranda</a></li>
+          <li><a href="/tentang" className={`${active == "tentang" ? "active" : ""}`}>Tentang</a></li>
+          <li><a href="/proker" className={`${active == "proker" ? "active" : ""}`}>Program Kerja</a></li>
         </ul>
       </div>
     </nav >

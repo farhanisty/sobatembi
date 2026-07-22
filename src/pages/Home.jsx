@@ -35,7 +35,7 @@ export default function Home() {
 
   return (
     <>
-      <Navbar />
+      <Navbar active="home" />
       <header className="hero">
         <div className="hero-blob b1"></div>
         <div className="hero-blob b2"></div>

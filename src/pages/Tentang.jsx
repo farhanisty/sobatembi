@@ -6,7 +6,7 @@ import { members } from "../repository/members"
 export default function Tentang() {
   return (
     <>
-      <Navbar />
+      <Navbar active="tentang" />
       <header className="hero" style={{
         minHeight: "56vh"
       }}>

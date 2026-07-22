@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 export default function Proker() {
   return (
     <>
-      <Navbar />
+      <Navbar active="proker" />
       <header className="hero" style={{ minHeight: "50vh" }}>
         <div className="hero-blob b1"></div>
         <div className="container">
