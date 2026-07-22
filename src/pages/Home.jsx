@@ -45,8 +45,8 @@ export default function Home() {
             <h1>Membangun <span className="accent">Tembi</span> lewat kerja nyata mahasiswa.</h1>
             <p className="lead">Dokumentasi program kerja kelompok KKN kami di Dusun Tembi, Timbulharjo, Sewon, Bantul.</p>
             <div className="hero-actions">
-              <a href="proker.html" className="btn btn-primary">Lihat Program Kerja</a>
-              <a href="tentang.html" className="btn btn-outline">Tentang Kelompok Kami</a>
+              <a href="/proker" className="btn btn-primary">Lihat Program Kerja</a>
+              <a href="/tentang" className="btn btn-outline">Tentang Kelompok Kami</a>
             </div>
             <div className="hero-stats">
               <div>
