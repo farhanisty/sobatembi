@@ -35,7 +35,16 @@ export default function Tentang() {
               <li><strong>Tema KKN:</strong> PEMBERDAYAAN MASYARAKAT BERBASIS KESEHATAN, PENGELOLAAN LINGKUNGAN, DAN DIGITALISASI UMKM</li>
             </ul>
           </div>
+          <div className="map-embed">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.0212898344284!2d110.3542436388273!3d-7.868946991083739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5672a60bf607%3A0xba275cce47a4380a!2sTembi%2C%20Timbulharjo%2C%20Kec.%20Sewon%2C%20Kabupaten%20Bantul%2C%20Daerah%20Istimewa%20Yogyakarta!5e1!3m2!1sid!2sid!4v1784917423278!5m2!1sid!2sid"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Peta Lokasi KKN">
+            </iframe>
+          </div>
         </div>
+
       </section >
 
       <section style={{ paddingTop: 0 }} >

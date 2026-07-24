@@ -2,6 +2,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { prokers } from "../repository/prokers";
 import FotoSIGDIndividu from "../assets/proker/individu/sigd/1.png"
+import FotoSumur from "../assets/proker/individu/sumur/banner.jpg"
 
 export default function Proker() {
   return (
@@ -88,6 +89,38 @@ export default function Proker() {
                 <h3>Vertikultur</h3>
                 <p>[Deskripsi singkat proker.]</p>
                 <a href="/proker/individu/vertikultur" className="card-link">Lihat detail <span className="arrow">→</span></a>
+              </div>
+            </article>
+
+            <article className="card-proker reveal">
+              <div className="thumb">03</div>
+              <div className="body">
+                <span className="badge individu">Proker Individu</span>
+                <h3>Visual Booster UMKM</h3>
+                <p>[Deskripsi singkat proker.]</p>
+                <a href="/proker/individu/visual-booster-umkm" className="card-link">Lihat detail <span className="arrow">→</span></a>
+              </div>
+            </article>
+
+            <article className="card-proker reveal">
+              <div className="thumb"><img src={FotoSIGDIndividu} /></div>
+              <div className="body">
+                <span className="badge individu">Proker Individu</span>
+                <h3>Sistem Informasi Golongan Darah Tembi</h3>
+                <p style={{ textAling: "justify" }}>Melakukan digitalisasi dan pemetaan data golongan darah warga desa secara terintegrasi.</p>
+                <a href="/proker/individu/sistem-informasi-golongan-darah" className="card-link">Lihat detail <span className="arrow">→</span></a>
+              </div>
+            </article>
+          </div>
+
+          <div style={{ marginTop: "1.5rem" }} className="grid-cards" data-stagger>
+            <article className="card-proker reveal">
+              <div className="thumb"><img src={FotoSumur} /></div>
+              <div className="body">
+                <span className="badge individu">Proker Individu</span>
+                <h3>Pengujian Kualitas Air Sumur</h3>
+                <p></p>
+                <a href="/proker/individu/uji-kualitas-air-sumur" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
 

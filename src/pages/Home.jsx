@@ -58,7 +58,7 @@ export default function Home() {
                 <div className="stat-label">Proker Individu</div>
               </div>
               <div>
-                <div className="stat-num">5</div>
+                <div className="stat-num">3</div>
                 <div className="stat-label">Proker Pendukung</div>
               </div>
             </div>

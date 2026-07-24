@@ -167,7 +167,7 @@ export default function UjiKualitasSmur() {
                 </tbody>
               </table>
 
-              <h3 style={{ marginTop: 12 }}>Link: <a style={{ color: "#6C8B08" }} href="https://youtube.com" target="_blank">sigd-tembi.vercel.app</a></h3>
+              <h3 style={{ marginTop: 12 }}>Link: <a style={{ color: "#6C8B08" }} href="https://drive.google.com/drive/folders/1X_Go485goFEmusOcNEHS9tqhj5wbZK7V" target="_blank">Excel Lengkap</a></h3>
             </div>
 
             <h2>Analisis</h2>
