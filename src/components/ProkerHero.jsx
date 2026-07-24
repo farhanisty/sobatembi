@@ -1,4 +1,5 @@
-export default function ProkerHero({ proker }) {
+import Foto1 from "../assets/proker/individu/sigd/1.png"
+export default function ProkerHero({ children, proker }) {
   return (
     <section className="detail-hero">
       <div className="container">
@@ -26,7 +27,7 @@ export default function ProkerHero({ proker }) {
             <span className="m-val">{proker.status}</span>
           </div>
         </div>
-        <div className="detail-cover reveal"></div>
+        <div className="detail-cover reveal" style={{ overflow: "hidden" }}>{children}</div>
       </div>
     </section>
   )

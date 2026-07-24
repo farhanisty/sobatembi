@@ -5,6 +5,7 @@ import Tentang from './pages/Tentang'
 import Proker from './pages/Proker'
 import PembuatanBiopori from './pages/proker/utama/PembuatanBiopori'
 import SIGDTembi from './pages/proker/utama/SIGDTembi'
+import { default as SIGDTembiIndividu } from './pages/proker/individu/SIGDTembi'
 import HariAnakNasional from './pages/proker/utama/HariAnakNasional'
 import Vertikultur from './pages/proker/individu/Vertikltur'
 import VisualBooster from './pages/proker/individu/VisualBooster'
@@ -19,13 +20,14 @@ function App() {
       <Route path="/proker" element={<Proker />}></Route>
 
       {/* Proker Utama */}
-      <Route path="/proker/utama/pembuatan-biopori" element={<PembuatanBiopori />}></Route>
+      <Route path="/proker/utama/biopori" element={<PembuatanBiopori />}></Route>
       <Route path="/proker/utama/sigd-tembi" element={<SIGDTembi />}></Route>
       <Route path="/proker/utama/hari-anak-nasional" element={<HariAnakNasional />}></Route>
 
       {/* Proker Individu */}
       <Route path="/proker/individu/vertikultur" element={<Vertikultur />}></Route>
       <Route path="/proker/individu/visual-booster-umkm" element={<VisualBooster />}></Route>
+      <Route path="/proker/individu/sistem-informasi-golongan-darah" element={<SIGDTembiIndividu />}></Route>
     </Routes>
   )
 }
