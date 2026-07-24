@@ -627,6 +627,7 @@ section {
   color: var(--text-soft);
   margin-bottom: 16px;
   font-size: 1.02rem;
+  text-align: justify;
 }
 
 .prose ul {

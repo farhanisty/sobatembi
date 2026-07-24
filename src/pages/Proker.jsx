@@ -88,10 +88,10 @@ export default function Proker() {
             <article className="card-proker reveal">
               <div className="thumb">03</div>
               <div className="body">
-                <span className="badge pendukung">Proker Pendukung</span>
-                <h3>[Nama Proker Pendukung 1]</h3>
+                <span className="badge individu">Proker Individu</span>
+                <h3>Visual Booster UMKM</h3>
                 <p>[Deskripsi singkat proker.]</p>
-                <a href="proker-3.html" className="card-link">Lihat detail <span className="arrow">→</span></a>
+                <a href="/proker/individu/visual-booster-umkm" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
 

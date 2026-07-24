@@ -2,7 +2,7 @@ export default function ProkerHero({ proker }) {
   return (
     <section className="detail-hero">
       <div className="container">
-        <span className="badge utama reveal">Proker Utama</span>
+        <span className={`badge ${proker.type} reveal`}>Proker {proker.type}</span>
         <h1 className="reveal">{proker.name}</h1>
         <div className="detail-meta reveal">
           <div>

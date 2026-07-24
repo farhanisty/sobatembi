@@ -7,6 +7,7 @@ import PembuatanBiopori from './pages/proker/utama/PembuatanBiopori'
 import SIGDTembi from './pages/proker/utama/SIGDTembi'
 import HariAnakNasional from './pages/proker/utama/HariAnakNasional'
 import Vertikultur from './pages/proker/individu/Vertikltur'
+import VisualBooster from './pages/proker/individu/VisualBooster'
 
 function App() {
   useScrollReveal();
@@ -24,6 +25,7 @@ function App() {
 
       {/* Proker Individu */}
       <Route path="/proker/individu/vertikultur" element={<Vertikultur />}></Route>
+      <Route path="/proker/individu/visual-booster-umkm" element={<VisualBooster />}></Route>
     </Routes>
   )
 }

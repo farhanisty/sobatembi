@@ -1,15 +1,28 @@
 import Footer from "../../../components/Footer";
 import Navbar from "../../../components/Navbar";
 import ProkerHero from "../../../components/ProkerHero";
+import Timeline from "../../../components/Timeline";
 export default function Vertikultur() {
   const proker = {
     type: "individu",
-    name: "Vertikultur",
+    name: "Sosialisasi dan Pelatihan Budidaya Sayuran Sistem Vertikultur Berbahan Botol Plastik Bekas",
     time: "Minggu, 19 Juli 2026",
     target: "RT 07",
-    responsibles: ["Alifa Hanna"],
+    responsibles: ["Alifa Hanna Safitri"],
     status: "Selesai"
   }
+
+  const timelines = [
+    {
+      date: "03 Juli 2026",
+      title: "Penyemaian Benih.",
+    },
+    {
+      date: "19 Juli 2026",
+      title: "Pelaksanaan Program Kerja Vertikultur",
+      description: "Dilaksanakan di Kelurahan Timbulharjo.",
+    },
+  ];
 
   return (
     <>
@@ -20,21 +33,23 @@ export default function Vertikultur() {
       <section style={{ paddingTop: 0 }} >
         <div className="container">
           <div className="prose reveal">
-            <h2>Latar Belakang</h2>
-            <p>[Jelaskan masalah atau kebutuhan di desa yang melatarbelakangi proker ini. 2–4 kalimat.]</p>
+            <h2>
+              Apa itu Vertikultur?
+            </h2>
+            <p>
+              Vertikultur adalah cara menanam tanaman dengan menyusun media tanam secara bertingkat atau vertikal. Metode ini cocok diterapkan di pekarangan rumah yang lahannya terbatas karena tidak membutuhkan banyak ruang. Pada kegiatan ini, media vertikultur dibuat dari botol plastik bekas sehingga selain dimanfaatkan untuk menanam sayuran, botol yang sebelumnya menjadi limbah juga dapat digunakan kembali.
+            </p>
 
-            <h2>Tujuan</h2>
-            <ul>
-              <li>[Tujuan 1]</li>
-              <li>[Tujuan 2]</li>
-              <li>[Tujuan 3]</li>
-            </ul>
+            <h2>Manfaat Kegiatan</h2>
+            <p>
+              Melalui kegiatan ini, masyarakat diajak untuk memanfaatkan pekarangan rumah agar lebih produktif dengan menanam sayuran sendiri. Selain itu, peserta juga belajar memanfaatkan botol plastik bekas menjadi media tanam yang bermanfaat. Harapannya, masyarakat dapat memenuhi sebagian kebutuhan sayuran sehari-hari, mengurangi sampah plastik, serta menciptakan lingkungan yang lebih hijau.
+            </p>
 
             <h2>Pelaksanaan</h2>
-            <p>[Ceritakan bagaimana kegiatan berlangsung — metode, tahapan, keterlibatan warga, kendala jika ada.]</p>
+            <p>Kegiatan diawali dengan penyampaian materi mengenai pengertian vertikultur, manfaat, jenis tanaman yang sesuai, alat dan bahan, serta tahapan pembuatannya. Setelah sesi sosialisasi, peserta mengikuti praktik langsung membuat media vertikultur berbahan botol plastik bekas, mulai dari proses melubangi dan merangkai botol, mengisi media tanam, hingga menanam bibit sayuran. Melalui kegiatan ini, peserta memperoleh pengalaman langsung sehingga diharapkan mampu menerapkan budidaya vertikultur secara mandiri di pekarangan rumah masing-masing.</p>
 
-            <h2>Hasil & Dampak</h2>
-            <p>[Jelaskan hasil konkret dari proker ini dan dampaknya bagi warga desa.]</p>
+            <h2>Timeline</h2>
+            <Timeline timelines={timelines} />
           </div>
 
           <div className="reveal">
@@ -44,8 +59,11 @@ export default function Vertikultur() {
             <div className="gallery-grid">
               < div className="g-item">Foto 1</div>
               <div className="g-item">Foto 2</div>
-              <div className="g-item">Foto 3</div>
-              <div className="g-item">Foto 4</div>
+            </div>
+
+            <div className="gallery-grid">
+              < div className="g-item">Foto 1</div>
+              <div className="g-item">Foto 2</div>
             </div>
           </div>
 
