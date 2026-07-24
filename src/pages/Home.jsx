@@ -77,19 +77,19 @@ export default function Home() {
             <ProkerCard
               title="Pembuatan Biopori"
               description="adalah pokoknya"
-              href="proker-1.html"
+              href="/proker/utama/pembuatan-biopori"
             />
 
             <ProkerCard
-              title="Pendataan Golongan Darah"
+              title="Sistem Informasi Golongan Darah Tembi"
               description="adalah pokoknya"
-              href="proker-1.html"
+              href="/proker/utama/sigd-tembi"
             />
 
             <ProkerCard
               title="Rangkaian Kegiatan Hari Anak Nasional"
               description="adalah pokoknya"
-              href="proker-1.html"
+              href="/proker/utama/hari-anak-nasional"
             />
           </div>
         </div>
