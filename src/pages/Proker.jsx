@@ -66,6 +66,47 @@ export default function Proker() {
           </div>
         </div>
       </section>
+
+      <section style={{ paddingTop: 0 }}>
+        <div className="container">
+          <div className="section-head reveal">
+            <span className="eyebrow">03</span>
+            <h2>Proker Individu</h2>
+            <p>Kegiatan tambahan yang mendukung jalannya proker utama dan kehidupan warga desa.</p>
+          </div>
+          <div className="grid-cards" data-stagger>
+            <article className="card-proker reveal">
+              <div className="thumb">03</div>
+              <div className="body">
+                <span className="badge individu">Proker Individu</span>
+                <h3>Vertikultur</h3>
+                <p>[Deskripsi singkat proker.]</p>
+                <a href="/proker/individu/vertikultur" className="card-link">Lihat detail <span className="arrow">→</span></a>
+              </div>
+            </article>
+
+            <article className="card-proker reveal">
+              <div className="thumb">03</div>
+              <div className="body">
+                <span className="badge pendukung">Proker Pendukung</span>
+                <h3>[Nama Proker Pendukung 1]</h3>
+                <p>[Deskripsi singkat proker.]</p>
+                <a href="proker-3.html" className="card-link">Lihat detail <span className="arrow">→</span></a>
+              </div>
+            </article>
+
+            <article className="card-proker reveal">
+              <div className="thumb">03</div>
+              <div className="body">
+                <span className="badge pendukung">Proker Pendukung</span>
+                <h3>[Nama Proker Pendukung 1]</h3>
+                <p>[Deskripsi singkat proker.]</p>
+                <a href="proker-3.html" className="card-link">Lihat detail <span className="arrow">→</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
       <Footer />
     </>
   )

@@ -1,14 +1,13 @@
 import Footer from "../../../components/Footer";
 import Navbar from "../../../components/Navbar";
 import ProkerHero from "../../../components/ProkerHero";
-
-export default function HariAnakNasional() {
+export default function Vertikultur() {
   const proker = {
-    type: "utama",
-    name: "Hari Anak Nasional",
-    time: "12 - 26 Juli 2026",
-    target: "Warga Tembi",
-    responsibles: ["Farhannivta Ramadhana"],
+    type: "individu",
+    name: "Vertikultur",
+    time: "Minggu, 19 Juli 2026",
+    target: "RT 07",
+    responsibles: ["Alifa Hanna"],
     status: "Selesai"
   }
 

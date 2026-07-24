@@ -460,6 +460,11 @@ section {
   color: var(--avocado);
 }
 
+.badge.individu {
+  background: lightblue;
+  color: blue;
+}
+
 .card-proker h3 {
   font-size: 1.22rem;
   margin-bottom: 8px;

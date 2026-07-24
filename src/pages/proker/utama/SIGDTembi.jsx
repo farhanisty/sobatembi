@@ -56,6 +56,8 @@ export default function SIGDTembi() {
           </div>
         </div >
       </section >
+
+      <Footer />
     </>
   )
 }
