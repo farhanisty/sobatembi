@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { prokers } from "../repository/prokers";
+import FotoSIGDIndividu from "../assets/proker/individu/sigd/1.png"
 
 export default function Proker() {
   return (
@@ -101,11 +102,11 @@ export default function Proker() {
             </article>
 
             <article className="card-proker reveal">
-              <div className="thumb">03</div>
+              <div className="thumb"><img src={FotoSIGDIndividu} /></div>
               <div className="body">
                 <span className="badge individu">Proker Individu</span>
                 <h3>Sistem Informasi Golongan Darah Tembi</h3>
-                <p>Adalah Pokoknya</p>
+                <p style={{ textAling: "justify" }}>Melakukan digitalisasi dan pemetaan data golongan darah warga desa secara terintegrasi.</p>
                 <a href="/proker/individu/sistem-informasi-golongan-darah" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>

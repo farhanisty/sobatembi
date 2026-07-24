@@ -26,8 +26,8 @@ export default function Footer() {
           <div className="foot-links">
             <div>
               <div className="foot-col-title">Navigasi</div>
-              <a href="tentang.html">Tentang</a>
-              <a href="proker.html">Program Kerja</a>
+              <a href="/tentang">Tentang</a>
+              <a href="/proker">Program Kerja</a>
             </div>
 
             <div>

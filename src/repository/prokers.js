@@ -1,3 +1,5 @@
+import FotoSIGDIndividu from "../assets/proker/individu/sigd/1.png"
+
 export const prokers = {
   utama: [
     {
@@ -24,7 +26,8 @@ export const prokers = {
     },
     {
       title: "Sistem Informasi Golongan Darah Tembi",
-      description: "Butuh",
+      description: "Melakukan digitalisasi dan pemetaan data golongan darah warga desa secara terintegrasi. Program ini bertujuan untuk membangun katalog pendonor siaga yang terstruktur, guna mempercepat akses informasi dan penyaluran bantuan darah bagi masyarakat yang membutuhkan.",
+      image: FotoSIGDIndividu,
       href: "/proker/individu/sistem-informasi-golongan-darah"
     },
   ]

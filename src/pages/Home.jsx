@@ -77,7 +77,7 @@ export default function Home() {
             <ProkerCard
               title="Pembuatan Biopori"
               description="adalah pokoknya"
-              href="/proker/utama/pembuatan-biopori"
+              href="/proker/utama/biopori"
             />
 
             <ProkerCard
@@ -89,7 +89,7 @@ export default function Home() {
             <ProkerCard
               title="Rangkaian Kegiatan Hari Anak Nasional"
               description="adalah pokoknya"
-              href="/proker/utama/hari-anak-nasional"
+              href="/proker/utama/hari-anak-nasionl"
             />
           </div>
         </div>
