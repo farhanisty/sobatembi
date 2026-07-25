@@ -8,15 +8,16 @@ import Foto2 from "../../../assets/proker/individu/sigd/2.png"
 import Foto3 from "../../../assets/proker/individu/sigd/3.png"
 import Foto4 from "../../../assets/proker/individu/sigd/4.png"
 import Foto5 from "../../../assets/proker/individu/sigd/5.png"
-import Banner from "../../../assets/proker/individu/ceria/banner.jpeg"
+
+import Banner from "../../../assets/proker/individu/gemas/banner.jpeg"
 
 export default function Gemas() {
   const proker = {
     type: "individu",
-    name: "CERIA (Cermat, Riang, Interaktif, dan Aktif): Edukasi Gunung Berapi Melalui Simulasi Letusan untuk Anak TK",
-    time: "15 - 24 Juli 2026",
+    name: "GEMAS: Sosialisasi Gemar Menabung Sejak Dini",
+    time: "Kamis, 16 Juli 2026",
     target: "TK Negeri Pembina Bantul",
-    responsibles: ["Nauval Akbar Putra P"],
+    responsibles: ["Yesa Revina Sungkusara"],
     status: "Selesai"
   }
 
@@ -26,21 +27,17 @@ export default function Gemas() {
       title: "Perizinan dan koordinasi dengan pihak TK.",
     },
     {
-      date: "10 - 12 Juli 2026",
-      title: "Penyusunan materi, pembuatan video edukasi, dan pembuatan miniatur gunung berapi.",
+      date: "11 - 13 Juli 2026",
+      title: "Penyusunan materi serta persiapan celengan, alat mewarnai, dan perlengkapan kegiatan.",
     },
     {
-      date: "14 Juli 2026",
-      title: "Persiapan hadiah untuk tiga peserta terbaik.",
-    },
-    {
-      date: "15 Juli 2026",
-      title: "Finalisasi alat, bahan, dan media pembelajaran.",
+      date: "14 - 15 Juli 2026",
+      title: "Pengecekan dan finalisasi materi serta seluruh perlengkapan kegiatan.",
     },
     {
       date: "16 Juli 2026",
-      title: "Pelaksanaan Proker CERIA.",
-      description: "Penyampaian materi, simulasi letusan gunung berapi, sesi tanya jawab, kuis interaktif, dan pemberian hadiah kepada tiga penjawab tercepat."
+      title: "Pelaksanaan Proker Gemas.",
+      description: "Pelaksanaan Sosialisasi Gemar Menabung Sejak Dini, penyampaian materi, tanya jawab interaktif, dan kegiatan mewarnai celengan bersama anak - anak TK."
     },
   ];
 
@@ -55,27 +52,29 @@ export default function Gemas() {
       <section style={{ paddingTop: 0 }} >
         <div className="container">
           <div className="prose reveal">
-            <h3>Link: <a style={{ color: "#6C8B08" }} href="https://youtube.com" target="_blank">sigd-tembi.vercel.app</a></h3>
-            <h2>Latar Belakang</h2>
+            <h2>Apa Itu?</h2>
             <p>
-              Kegiatan ini bertujuan mengenalkan konsep dasar gunung berapi kepada anak-anak Taman Kanak-Kanak (TK) melalui simulasi letusan gunung berapi yang sederhana dan aman. Dalam kegiatan ini, tim KKN membuat miniatur gunung berapi dan melakukan percobaan menggunakan bahan-bahan yang aman sehingga anak-anak dapat melihat proses “letusan” secara langsung.
+              Sosialisasi Gemar Menabung Sejak Dini merupakan kegiatan edukasi yang bertujuan mengenalkan pentingnya menabung kepada anak-anak Taman Kanak-Kanak (TK) melalui penyampaian materi yang sederhana, interaktif, dan menyenangkan. Anak-anak diajak mengenal kebiasaan menyisihkan uang serta memahami manfaat menabung sejak usia dini.
             </p>
 
-            <h2>Tujuan</h2>
-
-            <p>
-              Melalui kegiatan ini, anak-anak diajak untuk mengenal penyebab terjadinya gunung meletus, menumbuhkan rasa ingin tahu terhadap fenomena alam, serta meningkatkan kepercayaan diri dengan berani bertanya dan menjawab pertanyaan selama kegiatan berlangsung. Penyampaian materi didukung dengan video edukasi yang menarik agar anak-anak lebih mudah memahami materi.
-            </p>
+            <h2>Manfaat</h2>
+            <ul>
+              <li>Mengenalkan kebiasaan menabung sejak usia dini.</li>
+              <li>Mengajarkan pentingnya menyisihkan uang.</li>
+              <li>Menumbuhkan sikap disiplin dan bertanggung jawab.</li>
+              <li>Mengembangkan kreativitas anak melalui kegiatan mewarnai.</li>
+              <li>Memberikan pengalaman belajar tentang menabung dengan cara yang menyenangkan.</li>
+            </ul>
 
             <h2>Pelaksanaan</h2>
             <p>
-              Setelah penyampaian materi dan simulasi selesai, diadakan sesi kuis interaktif. Tiga anak yang paling cepat mengangkat tangan dan menjawab dengan benar mendapatkan apresiasi sebagai bentuk motivasi agar lebih semangat dalam belajar.
+              Kegiatan diawali dengan penyampaian materi mengenai pengenalan uang dan pentingnya menabung menggunakan bahasa yang mudah dipahami oleh anak-anak. Penyampaian materi dilakukan secara interaktif melalui tanya jawab sederhana agar anak-anak dapat berpartisipasi aktif.
             </p>
 
-            <h2>Hasil & Dampak</h2>
             <p>
-              Melalui kegiatan ini diharapkan anak-anak memperoleh pengetahuan dasar mengenai gunung berapi, memahami langkah-langkah sederhana untuk menjaga keselamatan saat terjadi bencana, serta semakin berani untuk berpartisipasi aktif dalam proses pembelajaran.
+              Setelah penyampaian materi, kegiatan dilanjutkan dengan mewarnai celengan bersama. Anak-anak diberikan kesempatan untuk menghias celengan sesuai dengan kreativitas masing-masing. Kegiatan ini menjadi sarana untuk mengenalkan kebiasaan menabung sekaligus mengembangkan kreativitas anak melalui aktivitas yang menyenangkan.
             </p>
+
 
 
             <h2>Timeline</h2>

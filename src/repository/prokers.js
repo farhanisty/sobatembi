@@ -1,24 +1,26 @@
 import FotoSIGDIndividu from "../assets/proker/individu/sigd/1.png"
 import BannerBiopori from "../assets/proker/utama/biopori/banner.jpeg"
+import BannerGoldar from "../assets/proker/utama/goldar/banner.jpeg"
+import BannerHariAnak from "../assets/proker/utama/hari-anak/banner.jpeg"
 
 export const prokers = {
   utama: [
     {
       title: "Pembuatan Biopori",
-      description: "Biopori adalah sesuatu yang baik",
+      description: "Mengelola sampah organik sekaligus meningkatkan daya resap tanah melalui pembuatan lubang biopori di Desa.",
       image: BannerBiopori,
       href: "/proker/utama/biopori"
     },
     {
       title: "Pendataan Golongan Darah Dusun Tembi",
       description: "Perlu data golongan darah warga dusun tembi",
-      image: BannerBiopori,
+      image: BannerGoldar,
       href: "/proker/utama/pendataan-golongan/darah"
     },
     {
-      title: "Rangkaian kegiatan 'Hari Anak Nasional'",
+      title: "Kegiatan 'Hari Anak Nasional'",
       description: "adalah",
-      image: BannerBiopori,
+      image: BannerHariAnak,
       href: "/proker/utama/hari-anak-nasional"
     },
   ],

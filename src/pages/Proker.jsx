@@ -33,10 +33,10 @@ export default function Proker() {
             <h2>Proker Utama</h2>
             <p>Program kerja inti yang menjadi fokus utama kelompok selama masa KKN.</p>
           </div>
-          {prokers.utama.map((proker, index) => {
-            return (
-              <div key={index} className="grid-cards" style={{ marginTop: 20 }} data-stagger>
-                <article className="card-proker reveal">
+          <div className="grid-cards" style={{ marginTop: 20 }} data-stagger>
+            {prokers.utama.map((proker, index) => {
+              return (
+                <article key={index} className="card-proker reveal">
                   <div className="thumb"><img src={proker.image} /></div>
                   <div className="body">
                     <span className="badge utama">Proker Utama</span>
@@ -45,9 +45,9 @@ export default function Proker() {
                     <a href={proker.href} className="card-link">Lihat detail <span className="arrow">→</span></a>
                   </div>
                 </article>
-              </div>
-            )
-          })}
+              )
+            })}
+          </div>
         </div>
       </section>
 
