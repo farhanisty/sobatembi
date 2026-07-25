@@ -12,6 +12,10 @@ import VisualBooster from './pages/proker/individu/VisualBooster'
 import UjiKualitasSmur from './pages/proker/individu/UjiKualitasSumur'
 import Ceria from './pages/proker/individu/Ceria'
 import Gemas from './pages/proker/individu/Gemas'
+import Sabun from './pages/proker/individu/Sabun'
+
+import TPA from './pages/proker/pendukung/TPA'
+import Posyandu from './pages/proker/pendukung/Posyandu'
 
 function App() {
   useScrollReveal();
@@ -24,7 +28,7 @@ function App() {
 
       {/* Proker Utama */}
       <Route path="/proker/utama/biopori" element={<PembuatanBiopori />}></Route>
-      <Route path="/proker/utama/sigd-tembi" element={<SIGDTembi />}></Route>
+      <Route path="/proker/utama/pendataan-golongan-darah" element={<SIGDTembi />}></Route>
       <Route path="/proker/utama/hari-anak-nasional" element={<HariAnakNasional />}></Route>
 
       {/* Proker Individu */}
@@ -34,6 +38,11 @@ function App() {
       <Route path="/proker/individu/uji-kualitas-air-sumur" element={<UjiKualitasSmur />}></Route>
       <Route path="/proker/individu/ceria" element={<Ceria />}></Route>
       <Route path="/proker/individu/gemas" element={<Gemas />}></Route>
+      <Route path="/proker/individu/sabun-natural" element={<Sabun />}></Route>
+
+      {/* Proker Pendukung */}
+      <Route path="/proker/pendukung/tpa" element={<TPA />}></Route>
+      <Route path="/proker/pendukung/posyandu" element={<Posyandu />}></Route>
     </Routes>
   )
 }

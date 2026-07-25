@@ -3,11 +3,9 @@ import Navbar from "../../../components/Navbar";
 import ProkerHero from "../../../components/ProkerHero";
 import Timeline from "../../../components/Timeline";
 
-import Foto1 from "../../../assets/proker/individu/sigd/1.png"
-import Foto2 from "../../../assets/proker/individu/sigd/2.png"
-import Foto3 from "../../../assets/proker/individu/sigd/3.png"
-import Foto4 from "../../../assets/proker/individu/sigd/4.png"
-import Foto5 from "../../../assets/proker/individu/sigd/5.png"
+import Foto1 from "../../../assets/proker/individu/gemas/1.jpeg"
+import Foto2 from "../../../assets/proker/individu/gemas/2.jpeg"
+import Foto3 from "../../../assets/proker/individu/gemas/3.jpeg"
 
 import Banner from "../../../assets/proker/individu/gemas/banner.jpeg"
 
@@ -87,15 +85,10 @@ export default function Gemas() {
               fontFamily: "var(--font-display)", fontSize: "1.6rem", margin: "40px 0 6px"
             }}>Dokumentasi</h2>
             <div className="gallery-grid">
-              <img src={Foto5} />
+              <img src={Foto1} />
               <img src={Foto2} />
-            </div>
-
-            <div className="gallery-grid">
-              <img src={Foto4} />
               <img src={Foto3} />
             </div>
-
           </div>
 
           <div className="detail-nav reveal">

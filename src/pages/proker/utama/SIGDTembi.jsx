@@ -2,13 +2,15 @@ import Footer from "../../../components/Footer";
 import Navbar from "../../../components/Navbar";
 import ProkerHero from "../../../components/ProkerHero";
 
+import Banner from "../../../assets/proker/utama/goldar/banner.jpeg"
+
 export default function SIGDTembi() {
   const proker = {
     type: "utama",
-    name: "Sistem Informasi Golongan Darah Tembi",
+    name: "Pendataan Golongan Darah Dusun Tembi",
     time: "12 - 26 Juli 2026",
     target: "Warga Tembi",
-    responsibles: ["Farhannivta Ramadhana"],
+    responsibles: ["Seluruh Anggota"],
     status: "Selesai"
   }
 
@@ -16,26 +18,59 @@ export default function SIGDTembi() {
     <>
       <Navbar />
 
-      <ProkerHero proker={proker} />
+      <ProkerHero proker={proker}>
+        <img src={Banner} alt="" />
+      </ProkerHero>
 
       <section style={{ paddingTop: 0 }} >
         <div className="container">
           <div className="prose reveal">
-            <h2>Latar Belakang</h2>
-            <p>[Jelaskan masalah atau kebutuhan di desa yang melatarbelakangi proker ini. 2–4 kalimat.]</p>
+            <h2>
+              Latar belakang:
+            </h2>
 
-            <h2>Tujuan</h2>
+            <p>
+              Kesehatan merupakan salah satu aspek penting dalam meningkatkan kualitas hidup masyarakat. Salah satu informasi dasar yang perlu diketahui oleh setiap individu adalah golongan darah, karena informasi tersebut sangat dibutuhkan dalam berbagai kondisi, terutama saat terjadi keadaan darurat yang memerlukan transfusi darah atau penanganan medis secara cepat. Namun, masih terdapat sebagian masyarakat yang belum mengetahui atau belum memiliki data golongan darah yang terdokumentasi dengan baik.
+            </p>
+
+            <p>
+              Di Desa Tembi, pendataan golongan darah masyarakat belum dilakukan secara menyeluruh sehingga informasi mengenai golongan darah belum tersedia secara lengkap. Kondisi ini dapat menjadi kendala ketika dibutuhkan data secara cepat untuk keperluan pelayanan kesehatan, kegiatan sosial, maupun situasi darurat yang membutuhkan donor darah. Oleh karena itu, diperlukan upaya untuk menghimpun dan mendokumentasikan data golongan darah masyarakat secara lebih sistematis.
+            </p>
+
+            <p>
+              Melalui program kerja Pendataan Golongan Darah, dilakukan pendataan informasi golongan darah masyarakat sebagai upaya mendukung tersedianya basis data kesehatan di Desa Tembi. Kegiatan ini diharapkan dapat membantu masyarakat mengetahui dan memastikan golongan darah yang dimiliki, sekaligus memudahkan pemerintah desa maupun tenaga kesehatan dalam memperoleh informasi yang diperlukan apabila terjadi kondisi darurat atau pelaksanaan kegiatan kesehatan di kemudian hari. Dengan adanya pendataan yang tertata dengan baik, diharapkan pelayanan kesehatan di Desa Tembi dapat menjadi lebih cepat, tepat, dan efektif.
+            </p>
+
+            <h2>
+              Tujuan
+            </h2>
+
             <ul>
-              <li>[Tujuan 1]</li>
-              <li>[Tujuan 2]</li>
-              <li>[Tujuan 3]</li>
+              <li>Mendata golongan darah masyarakat Desa Tembi secara akurat dan terorganisir.</li>
+
+              <li>Meningkatkan kesadaran masyarakat akan pentingnya mengetahui golongan darah.</li>
+
+              <li>Mendukung pelayanan kesehatan dan penanganan keadaan darurat melalui ketersediaan data golongan darah.</li>
+
             </ul>
 
             <h2>Pelaksanaan</h2>
-            <p>[Ceritakan bagaimana kegiatan berlangsung — metode, tahapan, keterlibatan warga, kendala jika ada.]</p>
+            <p>
+              Program Pendataan Golongan Darah dilaksanakan dengan metode door to door ke rumah-rumah warga di Desa Tembi. Kegiatan diawali dengan mendatangi masyarakat secara langsung untuk menyampaikan tujuan program sekaligus melakukan pendataan informasi golongan darah. Pendekatan ini dilakukan agar proses pendataan dapat menjangkau lebih banyak warga serta memudahkan masyarakat dalam memberikan informasi yang diperlukan.
+            </p>
 
-            <h2>Hasil & Dampak</h2>
-            <p>[Jelaskan hasil konkret dari proker ini dan dampaknya bagi warga desa.]</p>
+            <p>
+              Dalam pelaksanaannya, tim KKN memberikan dua alternatif kepada masyarakat. Alternatif pertama, formulir pendataan dapat langsung diisi bersama tim KKN saat kunjungan berlangsung. Alternatif kedua, formulir dapat dibawa pulang dan dikumpulkan melalui Ketua RT dalam batas waktu yang telah ditentukan. Mekanisme ini diterapkan untuk memberikan fleksibilitas kepada masyarakat sehingga proses pendataan dapat berjalan lebih efektif dan sesuai dengan kondisi masing-masing warga.
+            </p>
+
+            <p>
+              Selama kegiatan berlangsung, masyarakat menunjukkan respons yang baik dengan berpartisipasi dalam pengisian data golongan darah. Kerja sama antara tim KKN, masyarakat, dan Ketua RT turut mendukung kelancaran proses pendataan sehingga data yang terkumpul dapat terdokumentasi dengan lebih rapi dan terorganisir.
+            </p>
+
+            <p>
+              Melalui kegiatan ini, diharapkan data golongan darah masyarakat Desa Tembi dapat dimanfaatkan sebagai informasi pendukung bagi pemerintah desa dan tenaga kesehatan dalam meningkatkan pelayanan kesehatan serta membantu penanganan keadaan darurat yang memerlukan informasi golongan darah secara cepat dan akurat.
+            </p>
+
           </div>
 
           <div className="reveal">

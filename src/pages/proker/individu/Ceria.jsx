@@ -89,13 +89,9 @@ export default function Gemas() {
 
             <div className="gallery-grid">
               <img src={Foto1} />
-            </div>
-
-            <div className="gallery-grid">
               <img src={Foto2} />
               <img src={Foto3} />
             </div>
-
           </div>
 
           <div className="detail-nav reveal">

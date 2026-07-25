@@ -13,9 +13,9 @@ export const prokers = {
     },
     {
       title: "Pendataan Golongan Darah Dusun Tembi",
-      description: "Perlu data golongan darah warga dusun tembi",
+      description: "Meningkatkan ketersediaan data golongan darah masyarakat Desa Tembi untuk mendukung pelayanan kesehatan dan keadaan darurat.",
       image: BannerGoldar,
-      href: "/proker/utama/pendataan-golongan/darah"
+      href: "/proker/utama/pendataan-golongan-darah"
     },
     {
       title: "Kegiatan 'Hari Anak Nasional'",

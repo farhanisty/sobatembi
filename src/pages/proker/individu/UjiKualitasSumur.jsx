@@ -139,7 +139,7 @@ export default function UjiKualitasSmur() {
             </p>
 
             <h2>Hasil</h2>
-            <img src={Foto1} alt="" />
+            <img src={Peta} alt="" />
             <p>
               Secara umum, hasil pengujian menunjukkan bahwa kualitas air sumur di Dusun Tembi berada dalam kondisi baik. Nilai pH seluruh sampel berada pada kisaran 7,00–7,93, sehingga seluruh sampel memenuhi baku mutu yang dipersyaratkan. Nilai TDS berkisar antara 201–409 mg/L, sedangkan nilai DHL berada pada kisaran 402–822 µS/cm.
             </p>
@@ -222,9 +222,6 @@ export default function UjiKualitasSmur() {
             <div className="gallery-grid">
               <img src={Foto2} />
               <img src={Foto3} />
-            </div>
-
-            <div className="gallery-grid">
               <img src={Foto4} />
             </div>
           </div>

@@ -11,6 +11,10 @@ import BannerSumur from "../assets/proker/individu/sumur/banner.jpeg"
 import BannerSabun from "../assets/proker/individu/sabun/banner.jpeg"
 import BannerGemas from "../assets/proker/individu/gemas/banner.jpeg"
 
+import BannerTPA from "../assets/proker/pendukung/tpa/banner.jpeg"
+import BannerPosyandu from "../assets/proker/pendukung/posyandu/banner.jpeg"
+import BannerGotongRoyong from "../assets/proker/pendukung/gotong-royong/banner.jpeg"
+
 export default function Proker() {
   return (
     <>
@@ -59,22 +63,36 @@ export default function Proker() {
             <p>Kegiatan tambahan yang mendukung jalannya proker utama dan kehidupan warga desa.</p>
           </div>
           <div className="grid-cards" data-stagger>
+
             <article className="card-proker reveal">
-              <div className="thumb">03</div>
+              <div className="thumb"><img src={BannerTPA} /></div>
               <div className="body">
                 <span className="badge pendukung">Proker Pendukung</span>
-                <h3>[Nama Proker Pendukung 1]</h3>
-                <p>[Deskripsi singkat proker.]</p>
-                <a href="proker-3.html" className="card-link">Lihat detail <span className="arrow">→</span></a>
+                <h3>Pendampingan TPA</h3>
+                <p>Budidaya tanaman secara vertikal/bertingkat yang memanfaatkan lahan sempit.</p>
+                <a href="/proker/pendukung/tpa" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
+
             <article className="card-proker reveal">
-              <div className="thumb">03</div>
+              <div className="thumb"><img src={BannerPosyandu} /></div>
               <div className="body">
                 <span className="badge pendukung">Proker Pendukung</span>
-                <h3>[Nama Proker Pendukung 1]</h3>
-                <p>[Deskripsi singkat proker.]</p>
-                <a href="proker-3.html" className="card-link">Lihat detail <span className="arrow">→</span></a>
+                <h3>Pendampingan POSYANDU</h3>
+                <p>
+                  Mendukung pelayanan kesehatan ibu dan balita melalui pendampingan kegiatan Posyandu di Desa Tembi.
+                </p>
+                <a href="/proker/pendukung/posyandu" className="card-link">Lihat detail <span className="arrow">→</span></a>
+              </div>
+            </article>
+
+            <article className="card-proker reveal">
+              <div className="thumb"><img src={BannerGotongRoyong} /></div>
+              <div className="body">
+                <span className="badge pendukung">Proker Pendukung</span>
+                <h3>Gotong Royong</h3>
+                <p>Budidaya tanaman secara vertikal/bertingkat yang memanfaatkan lahan sempit.</p>
+                <a href="/proker/individu/vertikultur" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
           </div>
@@ -136,8 +154,8 @@ export default function Proker() {
               <div className="body">
                 <span className="badge individu">Proker Individu</span>
                 <h3>Pembuatan Sabun Natural</h3>
-                <p>[Deskripsi singkat proker.]</p>
-                <a href="/proker/individu/visual-booster-umkm" className="card-link">Lihat detail <span className="arrow">→</span></a>
+                <p>Edukasi dan praktik pembuatan sabun natural dengan memanfaatkan ampas kopi & penambahan oatmeal.</p>
+                <a href="/proker/individu/sabun-natural" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
 
