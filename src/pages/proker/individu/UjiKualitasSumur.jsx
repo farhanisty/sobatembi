@@ -3,11 +3,14 @@ import Navbar from "../../../components/Navbar";
 import ProkerHero from "../../../components/ProkerHero";
 import Timeline from "../../../components/Timeline";
 
-import Foto1 from "../../../assets/proker/individu/sumur/banner.jpg"
-import Foto2 from "../../../assets/proker/individu/sigd/2.png"
-import Foto3 from "../../../assets/proker/individu/sigd/3.png"
-import Foto4 from "../../../assets/proker/individu/sigd/4.png"
-import Foto5 from "../../../assets/proker/individu/sigd/5.png"
+import Peta from "../../../assets/proker/individu/sumur/banner.jpg"
+
+import Foto1 from "../../../assets/proker/individu/sumur/1.jpeg"
+import Foto2 from "../../../assets/proker/individu/sumur/2.jpeg"
+import Foto3 from "../../../assets/proker/individu/sumur/3.jpeg"
+import Foto4 from "../../../assets/proker/individu/sumur/4.jpeg"
+
+import Banner from "../../../assets/proker/individu/sumur/banner.jpeg"
 
 export default function UjiKualitasSmur() {
   const proker = {
@@ -114,11 +117,11 @@ export default function UjiKualitasSmur() {
       <Navbar />
 
       <ProkerHero proker={proker}>
+        <img src={Banner} alt="" />
       </ProkerHero >
 
       <section style={{ paddingTop: 0 }} >
         <div className="container">
-          <img src={Foto1} alt="" />
           <div className="prose reveal">
             <h2>Latar Belakang</h2>
             <p>
@@ -136,6 +139,7 @@ export default function UjiKualitasSmur() {
             </p>
 
             <h2>Hasil</h2>
+            <img src={Foto1} alt="" />
             <p>
               Secara umum, hasil pengujian menunjukkan bahwa kualitas air sumur di Dusun Tembi berada dalam kondisi baik. Nilai pH seluruh sampel berada pada kisaran 7,00–7,93, sehingga seluruh sampel memenuhi baku mutu yang dipersyaratkan. Nilai TDS berkisar antara 201–409 mg/L, sedangkan nilai DHL berada pada kisaran 402–822 µS/cm.
             </p>
@@ -212,15 +216,17 @@ export default function UjiKualitasSmur() {
               fontFamily: "var(--font-display)", fontSize: "1.6rem", margin: "40px 0 6px"
             }}>Dokumentasi</h2>
             <div className="gallery-grid">
-              <img src={Foto5} />
+              <img src={Foto1} />
+            </div>
+
+            <div className="gallery-grid">
               <img src={Foto2} />
+              <img src={Foto3} />
             </div>
 
             <div className="gallery-grid">
               <img src={Foto4} />
-              <img src={Foto3} />
             </div>
-
           </div>
 
           <div className="detail-nav reveal">

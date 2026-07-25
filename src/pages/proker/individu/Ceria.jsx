@@ -3,18 +3,17 @@ import Navbar from "../../../components/Navbar";
 import ProkerHero from "../../../components/ProkerHero";
 import Timeline from "../../../components/Timeline";
 
-import Foto1 from "../../../assets/proker/individu/sigd/1.png"
-import Foto2 from "../../../assets/proker/individu/sigd/2.png"
-import Foto3 from "../../../assets/proker/individu/sigd/3.png"
-import Foto4 from "../../../assets/proker/individu/sigd/4.png"
-import Foto5 from "../../../assets/proker/individu/sigd/5.png"
+import Foto1 from "../../../assets/proker/individu/ceria/1.jpeg"
+import Foto2 from "../../../assets/proker/individu/ceria/2.jpeg"
+import Foto3 from "../../../assets/proker/individu/ceria/3.jpeg"
+
 import Banner from "../../../assets/proker/individu/ceria/banner.jpeg"
 
-export default function SIGDTembi() {
+export default function Gemas() {
   const proker = {
     type: "individu",
     name: "CERIA (Cermat, Riang, Interaktif, dan Aktif): Edukasi Gunung Berapi Melalui Simulasi Letusan untuk Anak TK",
-    time: "15 - 24 Juli 2026",
+    time: "Kamis, 16 Juli 2026",
     target: "TK Negeri Pembina Bantul",
     responsibles: ["Nauval Akbar Putra P"],
     status: "Selesai"
@@ -87,13 +86,13 @@ export default function SIGDTembi() {
             <h2 style={{
               fontFamily: "var(--font-display)", fontSize: "1.6rem", margin: "40px 0 6px"
             }}>Dokumentasi</h2>
+
             <div className="gallery-grid">
-              <img src={Foto5} />
-              <img src={Foto2} />
+              <img src={Foto1} />
             </div>
 
             <div className="gallery-grid">
-              <img src={Foto4} />
+              <img src={Foto2} />
               <img src={Foto3} />
             </div>
 

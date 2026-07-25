@@ -11,6 +11,7 @@ import Vertikultur from './pages/proker/individu/Vertikltur'
 import VisualBooster from './pages/proker/individu/VisualBooster'
 import UjiKualitasSmur from './pages/proker/individu/UjiKualitasSumur'
 import Ceria from './pages/proker/individu/Ceria'
+import Gemas from './pages/proker/individu/Gemas'
 
 function App() {
   useScrollReveal();
@@ -32,6 +33,7 @@ function App() {
       <Route path="/proker/individu/sistem-informasi-golongan-darah" element={<SIGDTembiIndividu />}></Route>
       <Route path="/proker/individu/uji-kualitas-air-sumur" element={<UjiKualitasSmur />}></Route>
       <Route path="/proker/individu/ceria" element={<Ceria />}></Route>
+      <Route path="/proker/individu/gemas" element={<Gemas />}></Route>
     </Routes>
   )
 }

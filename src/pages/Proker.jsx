@@ -9,6 +9,7 @@ import BannerBencana from "../assets/proker/individu/bencana/banner.jpeg"
 import BannerVisualBooster from "../assets/proker/individu/visual-booster/banner.jpeg"
 import BannerSumur from "../assets/proker/individu/sumur/banner.jpeg"
 import BannerSabun from "../assets/proker/individu/sabun/banner.jpeg"
+import BannerGemas from "../assets/proker/individu/gemas/banner.jpeg"
 
 export default function Proker() {
   return (
@@ -145,7 +146,7 @@ export default function Proker() {
               <div className="body">
                 <span className="badge individu">Proker Individu</span>
                 <h3>Pembuatan Peta Rawan Bencana Berbasis Sistem Informasi Geografis</h3>
-                <p style={{ textAling: "justify" }}>Melakukan digitalisasi dan pemetaan data golongan darah warga desa secara terintegrasi.</p>
+                <p style={{ textAling: "justify" }}>Menyajikan peta rawan bencana sebagai media edukasi dan mitigasi masyarakat Tembi.</p>
                 <a href="/proker/individu/ceria" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
@@ -159,28 +160,20 @@ export default function Proker() {
                 <h3>
                   CERIA: Edukasi Gunung Berapi Melalui Simulasi Letusan untuk Anak TK
                 </h3>
-                <p></p>
+                <p>Program CERIA mengenalkan gunung berapi kepada anak TK melalui materi, simulasi letusan, dan kuis interaktif.</p>
                 <a href="/proker/individu/ceria" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
 
             <article className="card-proker reveal">
-              <div className="thumb"><img src={BannerSabun} /></div>
+              <div className="thumb"><img src={BannerGemas} /></div>
               <div className="body">
                 <span className="badge individu">Proker Individu</span>
-                <h3>Pembuatan Sabun Natural</h3>
-                <p>[Deskripsi singkat proker.]</p>
-                <a href="/proker/individu/visual-booster-umkm" className="card-link">Lihat detail <span className="arrow">→</span></a>
-              </div>
-            </article>
-
-            <article className="card-proker reveal">
-              <div className="thumb"><img src={BannerBencana} /></div>
-              <div className="body">
-                <span className="badge individu">Proker Individu</span>
-                <h3>Pembuatan Peta Rawan Bencana Berbasis Sistem Informasi Geografis</h3>
-                <p style={{ textAling: "justify" }}>Melakukan digitalisasi dan pemetaan data golongan darah warga desa secara terintegrasi.</p>
-                <a href="/proker/individu/sistem-informasi-golongan-darah" className="card-link">Lihat detail <span className="arrow">→</span></a>
+                <h3>GEMAS: Sosialisasi Gemar Menabung Sejak Dini</h3>
+                <p>
+                  Edukasi menabung bagi anak TK melalui penyampaian materi interaktif dan kegiatan mewarnai celengan.
+                </p>
+                <a href="/proker/individu/gemas" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
           </div>

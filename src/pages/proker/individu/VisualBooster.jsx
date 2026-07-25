@@ -4,6 +4,10 @@ import ProkerHero from "../../../components/ProkerHero";
 
 import Foto1 from "../../../assets/proker/individu/visual-booster/1.jpeg"
 import Foto2 from "../../../assets/proker/individu/visual-booster/2.jpeg"
+import Foto3 from "../../../assets/proker/individu/visual-booster/3.jpeg"
+import Foto4 from "../../../assets/proker/individu/visual-booster/4.jpeg"
+
+import Banner from "../../../assets/proker/individu/visual-booster/banner.jpeg"
 
 import Timeline from "../../../components/Timeline";
 
@@ -39,7 +43,9 @@ export default function VisualBooster() {
     <>
       <Navbar />
 
-      <ProkerHero proker={proker} />
+      <ProkerHero proker={proker} >
+        <img src={Banner} alt="" />
+      </ProkerHero>
 
       <section style={{ paddingTop: 0 }} >
         <div className="container">
@@ -92,14 +98,24 @@ export default function VisualBooster() {
             <h2 style={{
               fontFamily: "var(--font-display)", fontSize: "1.6rem", margin: "40px 0 6px"
             }}>Dokumentasi</h2>
-            <span style={{ color: "var(--goldenrod)", fontWeight: 800 }}>Desain Pricelist Menu</span>
+            <span style={{ color: "var(--goldenrod)", fontWeight: 800 }}>Desain Pricelist Menu.</span>
             <div className="gallery-grid">
-              <img src={Foto5} />
+              <img src={Foto1} />
             </div>
 
-            <span style={{ color: "var(--goldenrod)", fontWeight: 800 }}>Desain Logo</span>
+            <span style={{ color: "var(--goldenrod)", fontWeight: 800 }}>Desain Logo.</span>
             <div className="gallery-grid">
               <img src={Foto2} />
+            </div>
+
+            <span style={{ color: "var(--goldenrod)", fontWeight: 800 }}>Desain Banner.</span>
+            <div className="gallery-grid">
+              <img src={Foto3} />
+            </div>
+
+            <span style={{ color: "var(--goldenrod)", fontWeight: 800 }}>Penyerahan Visual Booster kepada UMKM.</span>
+            <div className="gallery-grid">
+              <img src={Foto4} />
             </div>
           </div>
 
