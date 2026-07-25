@@ -2,14 +2,14 @@ import Footer from "../../../components/Footer";
 import Navbar from "../../../components/Navbar";
 import ProkerHero from "../../../components/ProkerHero";
 
-import Banner from "../../../assets/proker/pendukung/posyandu/banner.jpeg"
+import Banner from "../../../assets/proker/pendukung/gotong-royong/banner.jpeg"
 
 export default function GotongRoyong() {
   const proker = {
     type: "pendukung",
-    name: "Pendampingan POSYANDU",
-    time: "8 Juli 2026",
-    target: "Warga Tembi",
+    name: "GOTONG ROYONG DAN PILAH SAMPAH",
+    time: "",
+    target: "Dusun Tembi",
     responsibles: ["Seluruh Anggota"],
     status: "Selesai"
   }
@@ -29,16 +29,18 @@ export default function GotongRoyong() {
               Latar belakang:
             </h2>
 
+
             <p>
-              Posyandu merupakan salah satu bentuk pelayanan kesehatan berbasis masyarakat yang berperan penting dalam meningkatkan derajat kesehatan, khususnya bagi ibu hamil, ibu menyusui, bayi, dan balita. Melalui kegiatan Posyandu, masyarakat dapat memperoleh berbagai layanan kesehatan, seperti pemantauan pertumbuhan dan perkembangan balita, penimbangan berat badan, imunisasi, pemberian vitamin, serta penyuluhan kesehatan. Oleh karena itu, pelaksanaan Posyandu yang rutin dan optimal sangat diperlukan untuk mendukung terciptanya masyarakat yang sehat.
+              Kebersihan lingkungan merupakan salah satu faktor penting dalam menciptakan lingkungan yang sehat, nyaman, dan asri. Upaya menjaga kebersihan tidak hanya menjadi tanggung jawab pemerintah, tetapi juga memerlukan partisipasi aktif dari seluruh masyarakat. Salah satu bentuk kepedulian terhadap lingkungan adalah dengan membiasakan kegiatan gotong royong serta menerapkan pemilahan sampah sejak dari sumbernya. Melalui kedua kegiatan tersebut, masyarakat dapat menciptakan lingkungan yang lebih bersih sekaligus mendukung pengelolaan sampah yang lebih efektif.
             </p>
 
             <p>
-              Di Desa Tembi, kegiatan Posyandu dilaksanakan secara rutin setiap tanggal 8 pada setiap bulannya sebagai upaya menjaga kesehatan ibu dan anak. Kegiatan ini menjadi sarana penting bagi masyarakat untuk memantau tumbuh kembang balita serta memperoleh pelayanan kesehatan dasar secara berkala. Agar seluruh rangkaian kegiatan dapat berjalan dengan tertib dan lancar, diperlukan dukungan dari berbagai pihak, termasuk mahasiswa KKN yang turut berpartisipasi membantu pelaksanaan Posyandu bersama kader dan tenaga kesehatan.
+              Di Desa Tembi, semangat gotong royong masih menjadi budaya yang terus dijaga oleh masyarakat. Namun, kesadaran mengenai pentingnya memilah sampah organik dan anorganik masih perlu ditingkatkan agar pengelolaan sampah dapat dilakukan dengan lebih optimal. Pemilahan sampah sejak awal tidak hanya mempermudah proses pengolahan dan daur ulang, tetapi juga membantu mengurangi pencemaran lingkungan serta volume sampah yang dibuang ke tempat pembuangan akhir.
             </p>
 
+
             <p>
-              Melalui program Pendampingan Posyandu, mahasiswa KKN berperan dalam membantu berbagai kegiatan pelayanan, seperti proses pendaftaran peserta, penimbangan dan pengukuran balita, pencatatan hasil pemeriksaan, serta mendukung kelancaran pelaksanaan kegiatan bersama kader Posyandu. Program ini diharapkan dapat meningkatkan kualitas pelayanan kesehatan di Desa Tembi, memperkuat kolaborasi antara mahasiswa dan masyarakat, serta meningkatkan kesadaran masyarakat akan pentingnya mengikuti Posyandu secara rutin. Dengan adanya pendampingan ini, kegiatan Posyandu yang dilaksanakan setiap bulan diharapkan dapat berlangsung lebih efektif, tertib, dan memberikan manfaat yang optimal bagi ibu, balita, serta masyarakat Desa Tembi.
+              Melalui program Gotong Royong dan Pilah Sampah, mahasiswa KKN bersama masyarakat melaksanakan kegiatan kerja bakti membersihkan lingkungan sekaligus memberikan pendampingan dalam pemilahan sampah sesuai dengan jenisnya. Program ini bertujuan untuk menumbuhkan kesadaran masyarakat akan pentingnya menjaga kebersihan lingkungan, memperkuat budaya gotong royong, serta mendorong penerapan kebiasaan memilah sampah dalam kehidupan sehari-hari. Dengan adanya kegiatan ini, diharapkan lingkungan Desa Tembi menjadi lebih bersih, sehat, dan nyaman, serta tercipta budaya masyarakat yang semakin peduli terhadap kelestarian lingkungan secara berkelanjutan.
             </p>
 
             <h2>
@@ -46,31 +48,30 @@ export default function GotongRoyong() {
             </h2>
 
             <ul>
-              <li>Mendukung pembelajaran Al-Qur'an melalui kegiatan pendampingan TPA.</li>
+              <li>Meningkatkan kepedulian masyarakat terhadap kebersihan lingkungan.</li>
 
-              <li>Meningkatkan semangat dan kemampuan belajar anak-anak di TPA Desa Tembi.</li>
+              <li>Membiasakan masyarakat memilah sampah organik dan anorganik.</li>
 
-              <li>Membantu menciptakan pembelajaran yang aktif, menyenangkan, dan edukatif.</li>
+              <li>Memperkuat budaya gotong royong di Desa Tembi.</li>
             </ul>
 
             <h2>Pelaksanaan</h2>
+
             <p>
-              Program Pendampingan Posyandu dilaksanakan pada tanggal 8 sesuai dengan jadwal rutin Posyandu di Desa Tembi. Mahasiswa KKN turut berpartisipasi membantu kader Posyandu dan tenaga kesehatan dalam berbagai rangkaian pelayanan kesehatan bagi ibu dan balita agar kegiatan dapat berlangsung dengan tertib, efektif, dan lancar.
+              Program Gotong Royong dan Pilah Sampah dilaksanakan bersama masyarakat Desa Tembi sebagai bentuk kepedulian terhadap kebersihan dan kelestarian lingkungan. Kegiatan diawali dengan gotong royong membersihkan lingkungan desa, seperti menyapu jalan, membersihkan area sekitar permukiman, serta mengumpulkan sampah yang berserakan. Kegiatan ini dilakukan secara bersama-sama oleh mahasiswa KKN dan masyarakat sehingga lingkungan menjadi lebih bersih sekaligus memperkuat semangat kebersamaan.
             </p>
 
             <p>
-              Selama pelaksanaan kegiatan, mahasiswa membantu proses penimbangan berat badan, pengukuran tinggi badan, pengukuran lingkar kepala, lingkar lengan atas (LILA), serta pemeriksaan fisik dasar lainnya sesuai dengan prosedur yang telah ditetapkan. Selain itu, mahasiswa juga membantu proses administrasi dengan mengisi Buku Kesehatan Ibu dan Anak (Buku KIA) berdasarkan hasil pemeriksaan yang telah dilakukan oleh tenaga kesehatan.
+              Setelah kegiatan gotong royong, dilanjutkan dengan pemilahan sampah berdasarkan jenisnya. Sampah dipisahkan menjadi beberapa kategori, seperti botol plastik, tutup botol, kaleng, serta berbagai jenis wadah kemasan lainnya yang masih memiliki nilai ekonomis. Proses pemilahan dilakukan agar sampah yang masih layak dapat dikelola dengan baik dan dipersiapkan untuk dijual kepada pengepul atau bank sampah.
             </p>
 
             <p>
-              Melalui keterlibatan tersebut, mahasiswa memperoleh pengalaman dalam mendukung pelayanan kesehatan masyarakat sekaligus membantu meringankan tugas kader Posyandu selama kegiatan berlangsung. Kehadiran tim KKN juga diharapkan dapat meningkatkan efektivitas pelayanan sehingga seluruh peserta Posyandu memperoleh layanan yang lebih optimal.
+              Hasil penjualan sampah yang telah dipilah diharapkan dapat memberikan nilai tambah ekonomi sekaligus menjadi motivasi bagi masyarakat untuk membiasakan pemilahan sampah sejak dari rumah. Kegiatan ini juga menjadi sarana edukasi bahwa sampah tidak selalu menjadi limbah, tetapi dapat dimanfaatkan kembali apabila dikelola dengan tepat.
             </p>
 
             <p>
-              Program Pendampingan Posyandu diharapkan dapat mendukung kelancaran pelayanan kesehatan di Desa Tembi, meningkatkan kesadaran masyarakat untuk mengikuti Posyandu secara rutin, serta berkontribusi dalam pemantauan tumbuh kembang balita dan kesehatan ibu secara berkelanjutan.
+              Melalui program Gotong Royong dan Pilah Sampah, diharapkan masyarakat Desa Tembi semakin peduli terhadap kebersihan lingkungan, terbiasa memilah sampah sesuai jenisnya, serta menyadari bahwa pengelolaan sampah yang baik tidak hanya menjaga kelestarian lingkungan, tetapi juga memberikan manfaat ekonomi bagi masyarakat.
             </p>
-
-
           </div>
 
           <div className="reveal">

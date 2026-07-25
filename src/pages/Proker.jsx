@@ -90,9 +90,12 @@ export default function Proker() {
               <div className="thumb"><img src={BannerGotongRoyong} /></div>
               <div className="body">
                 <span className="badge pendukung">Proker Pendukung</span>
-                <h3>Gotong Royong</h3>
-                <p>Budidaya tanaman secara vertikal/bertingkat yang memanfaatkan lahan sempit.</p>
-                <a href="/proker/individu/vertikultur" className="card-link">Lihat detail <span className="arrow">→</span></a>
+                <h3>Gotong Royong & Pilah Sampah</h3>
+                <p>
+                  Meningkatkan kepedulian masyarakat terhadap kebersihan lingkungan melalui kegiatan gotong royong dan pilah sampah di Desa Tembi.
+
+                </p>
+                <a href="/proker/pendukung/gotong-royong" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
           </div>

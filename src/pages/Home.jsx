@@ -2,6 +2,7 @@ import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
 import ProkerCard from "../components/ProkerCard"
 import Timeline from "../components/Timeline"
+import { prokers } from "../repository/prokers"
 
 export default function Home() {
   const timelines = [
@@ -74,23 +75,20 @@ export default function Home() {
             <p>Ringkasan proker unggulan kami. Selengkapnya ada di halaman Program Kerja.</p>
           </div>
           <div className="grid-cards" data-stagger>
-            <ProkerCard
-              title="Pembuatan Biopori"
-              description="adalah pokoknya"
-              href="/proker/utama/biopori"
-            />
 
-            <ProkerCard
-              title="Sistem Informasi Golongan Darah Tembi"
-              description="adalah pokoknya"
-              href="/proker/utama/sigd-tembi"
-            />
-
-            <ProkerCard
-              title="Rangkaian Kegiatan Hari Anak Nasional"
-              description="adalah pokoknya"
-              href="/proker/utama/hari-anak-nasionl"
-            />
+            {prokers.utama.map((proker, index) => {
+              return (
+                <article key={index} className="card-proker reveal">
+                  <div className="thumb"><img src={proker.image} /></div>
+                  <div className="body">
+                    <span className="badge utama">Proker Utama</span>
+                    <h3>{proker.title}</h3>
+                    <p>{proker.description}</p>
+                    <a href={proker.href} className="card-link">Lihat detail <span className="arrow">→</span></a>
+                  </div>
+                </article>
+              )
+            })}
           </div>
         </div>
       </section>

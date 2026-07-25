@@ -16,6 +16,7 @@ import Sabun from './pages/proker/individu/Sabun'
 
 import TPA from './pages/proker/pendukung/TPA'
 import Posyandu from './pages/proker/pendukung/Posyandu'
+import GotongRoyong from './pages/proker/pendukung/GotongRoyong'
 
 function App() {
   useScrollReveal();
@@ -43,6 +44,7 @@ function App() {
       {/* Proker Pendukung */}
       <Route path="/proker/pendukung/tpa" element={<TPA />}></Route>
       <Route path="/proker/pendukung/posyandu" element={<Posyandu />}></Route>
+      <Route path="/proker/pendukung/gotong-royong" element={<GotongRoyong />}></Route>
     </Routes>
   )
 }
