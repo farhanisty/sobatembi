@@ -3,6 +3,15 @@ import Navbar from "../../../components/Navbar";
 import ProkerHero from "../../../components/ProkerHero";
 
 import Banner from "../../../assets/proker/utama/biopori/banner.jpeg"
+import Timeline from "../../../components/Timeline";
+
+import Foto1 from "../../../assets/proker/utama/biopori/1.jpeg"
+import Foto2 from "../../../assets/proker/utama/biopori/2.jpeg"
+import Foto3 from "../../../assets/proker/utama/biopori/3.jpeg"
+import Foto4 from "../../../assets/proker/utama/biopori/4.jpeg"
+import Foto5 from "../../../assets/proker/utama/biopori/5.jpeg"
+import Foto6 from "../../../assets/proker/utama/biopori/6.jpeg"
+import Foto7 from "../../../assets/proker/utama/biopori/7.jpeg"
 
 export default function PembuatanBiopori() {
   const proker = {
@@ -13,6 +22,55 @@ export default function PembuatanBiopori() {
     responsibles: ["Seluruh Anggota"],
     status: "Selesai"
   }
+
+  const timelines = [
+    {
+      date: "05 Juli 2026",
+      title: "Persiapan Proker Biopori",
+      description: "Pembelian Alat Bor dan Bahan Utama",
+    },
+    {
+      date: "06 Juli 2026",
+      title: "Persiapan Proker Biopori",
+      description: "Penyiapan Peralon, Tutup Peralon, dan Peralatan Lainnya",
+    },
+    {
+      date: "08 Juli 2026",
+      title: "Persiapan Proker Biopori",
+      description: "Pemotongan Paralon Biopori (50 Pcs)",
+    },
+    {
+      date: "11 Juli 2026",
+      title: "Persiapan Proker Biopori",
+      description: "Pelubangan Paralon Biopori (50 Pcs)",
+    },
+    {
+      date: "12 Juli 2026",
+      title: "Pelaksanaan Proker Biopori",
+      description: "Penanaman Pertama di RT-02 (8 Pcs)",
+    },
+    {
+      date: "13 Juli 2026",
+      title: "Pelaksanaan Proker Biopori",
+      description: "Penanaman di RT-04 (5 Pcs)",
+    },
+    {
+      date: "15 Juli 2026",
+      title: "Pelaksanaan Proker Biopori",
+      description: "Penanaman di RT-08 (5 Pcs)",
+    },
+    {
+      date: "19 Juli 2026",
+      title: "Sosialisasi Proker Biopori pada Kegiatan Arisan RT-07",
+      description: "",
+    },
+    {
+      date: "23 Juli 2026",
+      title: "Pelaksanaan Proker Biopori Terakhir",
+      description: "Penanaman di RT-07 dan RT-01",
+    },
+  ];
+
   return (
     <>
       <Navbar />
@@ -61,18 +119,31 @@ export default function PembuatanBiopori() {
               Selama pelaksanaan kegiatan, masyarakat Desa Tembi menunjukkan partisipasi yang baik dengan membantu proses pemasangan serta memberikan dukungan terhadap program yang dilaksanakan. Melalui kegiatan ini, diharapkan masyarakat dapat menerapkan dan memanfaatkan biopori secara berkelanjutan sebagai salah satu upaya menjaga kebersihan lingkungan, mengurangi sampah organik, dan meningkatkan resapan air di lingkungan sekitar.
             </p>
 
+            <h2>Timeline</h2>
+            <Timeline timelines={timelines} />
           </div>
 
           <div className="reveal">
             <h2 style={{
               fontFamily: "var(--font-display)", fontSize: "1.6rem", margin: "40px 0 6px"
             }}>Dokumentasi</h2>
+
             <div className="gallery-grid">
-              < div className="g-item">Foto 1</div>
-              <div className="g-item">Foto 2</div>
-              <div className="g-item">Foto 3</div>
-              <div className="g-item">Foto 4</div>
+              <img src={Foto2} />
+              <img src={Foto3} />
             </div>
+
+            <div className="gallery-grid">
+              <img src={Foto4} />
+              <img src={Foto5} />
+            </div>
+
+            <div className="gallery-grid">
+              <img src={Foto6} />
+              <img src={Foto7} />
+              <img src={Foto1} />
+            </div>
+
           </div>
 
           <div className="detail-nav reveal">

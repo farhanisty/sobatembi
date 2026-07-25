@@ -3,6 +3,12 @@ import Navbar from "../../../components/Navbar";
 import ProkerHero from "../../../components/ProkerHero";
 
 import Banner from "../../../assets/proker/pendukung/gotong-royong/banner.jpeg"
+import Timeline from "../../../components/Timeline";
+
+import Foto1 from "../../../assets/proker/pendukung/gotong-royong/1.jpeg"
+import Foto2 from "../../../assets/proker/pendukung/gotong-royong/2.jpeg"
+import Foto3 from "../../../assets/proker/pendukung/gotong-royong/3.jpeg"
+import Foto4 from "../../../assets/proker/pendukung/gotong-royong/4.jpeg"
 
 export default function GotongRoyong() {
   const proker = {
@@ -13,7 +19,23 @@ export default function GotongRoyong() {
     responsibles: ["Seluruh Anggota"],
     status: "Selesai"
   }
-
+  const timelines = [
+    {
+      date: "04 Juli 2026",
+      title: "Gotong Royong dan Takziah",
+      description: "Pelaksanaan di RT-06",
+    },
+    {
+      date: "12 Juli 2026",
+      title: "Gotong Royong Pemilahan Sampah",
+      description: "Pelaksanaan di RT-02",
+    },
+    {
+      date: "14 Juli 2026",
+      title: "Gotong Royong Persiapan Lomba Agustusan",
+      description: "Kegiatan dilakukan bersama pemuda setempat",
+    },
+  ];
   return (
     <>
       <Navbar />
@@ -72,18 +94,28 @@ export default function GotongRoyong() {
             <p>
               Melalui program Gotong Royong dan Pilah Sampah, diharapkan masyarakat Desa Tembi semakin peduli terhadap kebersihan lingkungan, terbiasa memilah sampah sesuai jenisnya, serta menyadari bahwa pengelolaan sampah yang baik tidak hanya menjaga kelestarian lingkungan, tetapi juga memberikan manfaat ekonomi bagi masyarakat.
             </p>
+
+            <h2>Timeline</h2>
+            <Timeline timelines={timelines} />
           </div>
 
           <div className="reveal">
             <h2 style={{
               fontFamily: "var(--font-display)", fontSize: "1.6rem", margin: "40px 0 6px"
             }}>Dokumentasi</h2>
+
+
             <div className="gallery-grid">
-              < div className="g-item">Foto 1</div>
-              <div className="g-item">Foto 2</div>
-              <div className="g-item">Foto 3</div>
-              <div className="g-item">Foto 4</div>
+              <img src={Foto1} />
+              <img src={Foto3} />
+              <img src={Foto4} />
             </div>
+
+            <div className="gallery-grid">
+              <img src={Foto2} />
+            </div>
+
+
           </div>
 
           <div className="detail-nav reveal">

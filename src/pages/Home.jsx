@@ -28,6 +28,12 @@ export default function Home() {
       badge: "utama"
     },
     {
+      date: "26 Juli 2026",
+      title: "Expo Kelompok 21-24",
+      description: "Lomba mewarnai dan kolase yang dilaksanakan kolaborasi dengan sanggar tari.",
+      badge: "utama"
+    },
+    {
       date: "31 Juli 2026",
       title: "Penarikan KKN",
       description: "Dilaksanakan di Kelurahan Timbulharjo.",

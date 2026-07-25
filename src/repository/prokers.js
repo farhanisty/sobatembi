@@ -19,7 +19,7 @@ export const prokers = {
     },
     {
       title: "Kegiatan 'Hari Anak Nasional'",
-      description: "adalah",
+      description: "Menumbuhkan semangat belajar, kreativitas, dan kebersamaan anak- anak melalui peringatan Hari Anak Nasional di Desa Tembi.",
       image: BannerHariAnak,
       href: "/proker/utama/hari-anak-nasional"
     },

@@ -2,6 +2,12 @@ import Footer from "../../../components/Footer";
 import Navbar from "../../../components/Navbar";
 import ProkerHero from "../../../components/ProkerHero";
 
+import Foto1 from "../../../assets/proker/pendukung/posyandu/1.jpeg"
+import Foto2 from "../../../assets/proker/pendukung/posyandu/2.jpeg"
+import Foto3 from "../../../assets/proker/pendukung/posyandu/3.jpeg"
+import Foto4 from "../../../assets/proker/pendukung/posyandu/4.jpeg"
+import Foto5 from "../../../assets/proker/pendukung/posyandu/5.jpeg"
+
 import Banner from "../../../assets/proker/pendukung/posyandu/banner.jpeg"
 
 export default function Posyandu() {
@@ -77,12 +83,20 @@ export default function Posyandu() {
             <h2 style={{
               fontFamily: "var(--font-display)", fontSize: "1.6rem", margin: "40px 0 6px"
             }}>Dokumentasi</h2>
+
+
             <div className="gallery-grid">
-              < div className="g-item">Foto 1</div>
-              <div className="g-item">Foto 2</div>
-              <div className="g-item">Foto 3</div>
-              <div className="g-item">Foto 4</div>
+              <img src={Foto1} />
+              <img src={Foto2} />
+              <img src={Foto3} />
             </div>
+
+            <div className="gallery-grid">
+              <img src={Foto4} />
+              <img src={Foto5} />
+            </div>
+
+
           </div>
 
           <div className="detail-nav reveal">

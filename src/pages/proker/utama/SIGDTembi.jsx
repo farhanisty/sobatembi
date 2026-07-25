@@ -3,6 +3,12 @@ import Navbar from "../../../components/Navbar";
 import ProkerHero from "../../../components/ProkerHero";
 
 import Banner from "../../../assets/proker/utama/goldar/banner.jpeg"
+import Timeline from "../../../components/Timeline";
+
+import Foto1 from "../../../assets/proker/utama/goldar/1.jpeg"
+import Foto2 from "../../../assets/proker/utama/goldar/2.jpeg"
+import Foto3 from "../../../assets/proker/utama/goldar/3.jpeg"
+import Foto4 from "../../../assets/proker/utama/goldar/4.jpeg"
 
 export default function SIGDTembi() {
   const proker = {
@@ -13,6 +19,39 @@ export default function SIGDTembi() {
     responsibles: ["Seluruh Anggota"],
     status: "Selesai"
   }
+
+  const timelines = [
+    {
+      date: "07 Juli 2026",
+      title: "Pendataan Golongan Darah",
+      description: "Pendataan dilakukan di RT-03 dan RT-04",
+    },
+    {
+      date: "08 Juli 2026",
+      title: "Melanjutkan Proker Utama Pendataan Golongan Darah",
+      description: "Pendataan dilakukan di RT-02, RT-05, dan RT-06",
+    },
+    {
+      date: "09 Juli 2026",
+      title: "Melanjutkan Proker Utama Pendataan Golongan Darah",
+      description: "Pendataan dilakukan di RT-08",
+    },
+    {
+      date: "10 Juli 2026",
+      title: "Melanjutkan Proker Utama Pendataan Golongan Darah",
+      description: "Pendataan dilakukan pada RT-01",
+    },
+    {
+      date: "14 Juli 2026",
+      title: "Melanjutkan Penginputan Golongan Darah",
+      description: "Penginputan data ke website yang telah dibuat",
+    },
+    {
+      date: "21 Juli 2026",
+      title: "Penginputan Golongan Darah",
+      description: "Penginputan data ke website yang telah dibuat",
+    },
+  ];
 
   return (
     <>
@@ -71,17 +110,23 @@ export default function SIGDTembi() {
               Melalui kegiatan ini, diharapkan data golongan darah masyarakat Desa Tembi dapat dimanfaatkan sebagai informasi pendukung bagi pemerintah desa dan tenaga kesehatan dalam meningkatkan pelayanan kesehatan serta membantu penanganan keadaan darurat yang memerlukan informasi golongan darah secara cepat dan akurat.
             </p>
 
+            <h2>Timeline</h2>
+            <Timeline timelines={timelines} />
           </div>
 
           <div className="reveal">
             <h2 style={{
               fontFamily: "var(--font-display)", fontSize: "1.6rem", margin: "40px 0 6px"
             }}>Dokumentasi</h2>
+
             <div className="gallery-grid">
-              < div className="g-item">Foto 1</div>
-              <div className="g-item">Foto 2</div>
-              <div className="g-item">Foto 3</div>
-              <div className="g-item">Foto 4</div>
+              <img src={Foto1} />
+              <img src={Foto2} />
+            </div>
+
+            <div className="gallery-grid">
+              <img src={Foto3} />
+              <img src={Foto4} />
             </div>
           </div>
 

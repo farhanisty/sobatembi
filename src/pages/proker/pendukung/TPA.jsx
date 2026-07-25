@@ -3,6 +3,12 @@ import Navbar from "../../../components/Navbar";
 import ProkerHero from "../../../components/ProkerHero";
 
 import Banner from "../../../assets/proker/pendukung/tpa/banner.jpeg"
+import Timeline from "../../../components/Timeline";
+
+import Foto1 from "../../../assets/proker/pendukung/tpa/1.jpeg"
+import Foto2 from "../../../assets/proker/pendukung/tpa/2.jpeg"
+import Foto3 from "../../../assets/proker/pendukung/tpa/3.jpeg"
+import Foto4 from "../../../assets/proker/pendukung/tpa/4.jpeg"
 
 export default function TPA() {
   const proker = {
@@ -13,6 +19,49 @@ export default function TPA() {
     responsibles: ["Seluruh Anggota"],
     status: "Selesai"
   }
+
+  const timelines = [
+    {
+      date: "06 Juli 2026",
+      title: "Mengajar TPA di Al-Huda",
+      description: "Membantu dalam mengajar mengaji dan kegiatan keagamaan lainnya",
+    },
+    {
+      date: "07 Juli 2026",
+      title: "Mengajar TPA di Al-Huda",
+      description: "Membantu dalam mengajar mengaji dan kegiatan keagamaan lainnya",
+    },
+    {
+      date: "09 Juli 2026",
+      title: "Mengajar TPA di Al-Huda",
+      description: "Membantu dalam mengajar mengaji dan kegiatan keagamaan lainnya",
+    },
+    {
+      date: "10 Juli 2026",
+      title: "Mengajar TPA dan Memulai Rangkaian Proker Utama Hari Anak Nasional",
+      description: "Rangkaian berisi games islami dengan total 3 games, disertakan pula hadiah yang menarik",
+    },
+    {
+      date: "14 Juli 2026",
+      title: "Mengajar TPA di Al-Huda",
+      description: "Membantu dalam mengajar mengaji dan kegiatan keagamaan lainnya",
+    },
+    {
+      date: "21 Juli 2026",
+      title: "Mengajar TPA di Al-Huda",
+      description: "Membantu dalam mengajar mengaji dan kegiatan keagamaan lainnya",
+    },
+    {
+      date: "23 Juli 2026",
+      title: "Mengajar TPA di Al-Huda",
+      description: "Membantu dalam mengajar mengaji dan kegiatan keagamaan lainnya",
+    },
+    {
+      date: "24 Juli 2026",
+      title: "Mengajar TPA di Al-Huda",
+      description: "Membantu dalam mengajar mengaji dan kegiatan keagamaan lainnya",
+    },
+  ];
 
   return (
     <>
@@ -71,6 +120,9 @@ export default function TPA() {
             <p>
               Melalui kegiatan Pendampingan TPA, diharapkan anak-anak di Desa Tembi semakin termotivasi untuk belajar Al-Qur'an, meningkatkan kemampuan membaca dan menghafal, serta menumbuhkan kecintaan terhadap nilai-nilai keislaman dalam kehidupan sehari-hari. Selain itu, kegiatan ini juga diharapkan dapat membantu ustaz dan ustazah dalam mendukung kelancaran proses pembelajaran di TPA.
             </p>
+
+            <h2>Timeline</h2>
+            <Timeline timelines={timelines} />
           </div>
 
           <div className="reveal">
@@ -78,10 +130,13 @@ export default function TPA() {
               fontFamily: "var(--font-display)", fontSize: "1.6rem", margin: "40px 0 6px"
             }}>Dokumentasi</h2>
             <div className="gallery-grid">
-              < div className="g-item">Foto 1</div>
-              <div className="g-item">Foto 2</div>
-              <div className="g-item">Foto 3</div>
-              <div className="g-item">Foto 4</div>
+              <img src={Foto3} />
+            </div>
+
+            <div className="gallery-grid">
+              <img src={Foto1} />
+              <img src={Foto2} />
+              <img src={Foto4} />
             </div>
           </div>
 

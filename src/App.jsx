@@ -17,6 +17,7 @@ import Sabun from './pages/proker/individu/Sabun'
 import TPA from './pages/proker/pendukung/TPA'
 import Posyandu from './pages/proker/pendukung/Posyandu'
 import GotongRoyong from './pages/proker/pendukung/GotongRoyong'
+import Bencana from './pages/proker/individu/Bencana'
 
 function App() {
   useScrollReveal();
@@ -39,6 +40,7 @@ function App() {
       <Route path="/proker/individu/uji-kualitas-air-sumur" element={<UjiKualitasSmur />}></Route>
       <Route path="/proker/individu/ceria" element={<Ceria />}></Route>
       <Route path="/proker/individu/gemas" element={<Gemas />}></Route>
+      <Route path="/proker/individu/bencana" element={<Bencana />}></Route>
       <Route path="/proker/individu/sabun-natural" element={<Sabun />}></Route>
 
       {/* Proker Pendukung */}

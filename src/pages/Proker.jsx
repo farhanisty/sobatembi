@@ -107,7 +107,6 @@ export default function Proker() {
           <div className="section-head reveal">
             <span className="eyebrow">03</span>
             <h2>Proker Individu</h2>
-            <p>Kegiatan tambahan yang mendukung jalannya proker utama dan kehidupan warga desa.</p>
           </div>
           <div className="grid-cards" data-stagger>
             <article className="card-proker reveal">
@@ -168,7 +167,7 @@ export default function Proker() {
                 <span className="badge individu">Proker Individu</span>
                 <h3>Pembuatan Peta Rawan Bencana Berbasis Sistem Informasi Geografis</h3>
                 <p style={{ textAling: "justify" }}>Menyajikan peta rawan bencana sebagai media edukasi dan mitigasi masyarakat Tembi.</p>
-                <a href="/proker/individu/ceria" className="card-link">Lihat detail <span className="arrow">→</span></a>
+                <a href="/proker/individu/bencana" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
           </div>
