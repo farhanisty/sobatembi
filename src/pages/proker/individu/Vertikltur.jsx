@@ -2,6 +2,12 @@ import Footer from "../../../components/Footer";
 import Navbar from "../../../components/Navbar";
 import ProkerHero from "../../../components/ProkerHero";
 import Timeline from "../../../components/Timeline";
+
+import Banner from "../../../assets/proker/individu/vertikultur/banner.jpeg"
+import Foto1 from "../../../assets/proker/individu/vertikultur/1.jpeg"
+import Foto2 from "../../../assets/proker/individu/vertikultur/2.jpeg"
+import Foto3 from "../../../assets/proker/individu/vertikultur/3.jpeg"
+
 export default function Vertikultur() {
   const proker = {
     type: "individu",
@@ -14,13 +20,24 @@ export default function Vertikultur() {
 
   const timelines = [
     {
+      date: "02 Juli 2026",
+      title: "Mempersiapkan Alat dan Bahan yang dibutuhkan",
+    },
+    {
       date: "03 Juli 2026",
-      title: "Penyemaian Benih.",
+      title: "Penyemaian Benih",
+    },
+    {
+      date: "17 Juli 2026",
+      title: "Benih Siap Pindah Tanam",
     },
     {
       date: "19 Juli 2026",
       title: "Pelaksanaan Program Kerja Vertikultur",
-      description: "Dilaksanakan di Kelurahan Timbulharjo.",
+    },
+    {
+      date: "20 Juli 2026",
+      title: "Evaluasi Kegiatan",
     },
   ];
 
@@ -28,7 +45,9 @@ export default function Vertikultur() {
     <>
       <Navbar />
 
-      <ProkerHero proker={proker} />
+      <ProkerHero proker={proker}>
+        <img src={Banner} alt="" />
+      </ProkerHero>
 
       <section style={{ paddingTop: 0 }} >
         <div className="container">
@@ -52,19 +71,25 @@ export default function Vertikultur() {
             <Timeline timelines={timelines} />
           </div>
 
-          <div className="reveal">
+          <div style={{ width: "100%" }} className="reveal">
             <h2 style={{
               fontFamily: "var(--font-display)", fontSize: "1.6rem", margin: "40px 0 6px"
             }}>Dokumentasi</h2>
-            <div className="gallery-grid">
-              < div className="g-item">Foto 1</div>
-              <div className="g-item">Foto 2</div>
+            <div style={{ height: 670, marginTop: "1rem", display: "flex", gap: "1rem" }}>
+              <div>
+                <img src={Foto1} />
+              </div>
+
+              <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+                <div style={{ display: "flex", overflow: "hidden", flex: 1 }}>
+                  <img src={Foto2} />
+                </div>
+                <div style={{ display: "flex", overflow: "hidden", flex: 1 }}>
+                  <img src={Foto3} />
+                </div>
+              </div>
             </div>
 
-            <div className="gallery-grid">
-              < div className="g-item">Foto 1</div>
-              <div className="g-item">Foto 2</div>
-            </div>
           </div>
 
           <div className="detail-nav reveal">

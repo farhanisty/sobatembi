@@ -3,6 +3,12 @@ import Navbar from "../components/Navbar";
 import { prokers } from "../repository/prokers";
 import FotoSIGDIndividu from "../assets/proker/individu/sigd/1.png"
 import FotoSumur from "../assets/proker/individu/sumur/banner.jpg"
+import BannerVertikultur from "../assets/proker/individu/vertikultur/banner.jpeg"
+import BannerCeria from "../assets/proker/individu/ceria/banner.jpeg"
+import BannerBencana from "../assets/proker/individu/bencana/banner.jpeg"
+import BannerVisualBooster from "../assets/proker/individu/visual-booster/banner.jpeg"
+import BannerSumur from "../assets/proker/individu/sumur/banner.jpeg"
+import BannerSabun from "../assets/proker/individu/sabun/banner.jpeg"
 
 export default function Proker() {
   return (
@@ -30,7 +36,7 @@ export default function Proker() {
             return (
               <div key={index} className="grid-cards" style={{ marginTop: 20 }} data-stagger>
                 <article className="card-proker reveal">
-                  <div className="thumb">02</div>
+                  <div className="thumb"><img src={proker.image} /></div>
                   <div className="body">
                     <span className="badge utama">Proker Utama</span>
                     <h3>{proker.title}</h3>
@@ -83,21 +89,21 @@ export default function Proker() {
           </div>
           <div className="grid-cards" data-stagger>
             <article className="card-proker reveal">
-              <div className="thumb">03</div>
+              <div className="thumb"><img src={BannerVertikultur} /></div>
               <div className="body">
                 <span className="badge individu">Proker Individu</span>
                 <h3>Vertikultur</h3>
-                <p>[Deskripsi singkat proker.]</p>
+                <p>Budidaya tanaman secara vertikal/bertingkat yang memanfaatkan lahan sempit.</p>
                 <a href="/proker/individu/vertikultur" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
 
             <article className="card-proker reveal">
-              <div className="thumb">03</div>
+              <div className="thumb"><img src={BannerVisualBooster} /></div>
               <div className="body">
                 <span className="badge individu">Proker Individu</span>
                 <h3>Visual Booster UMKM</h3>
-                <p>[Deskripsi singkat proker.]</p>
+                <p>Meningkatkan branding UMKM Desa Tembi melalui pembuatan logo, banner, dan pricelist yang profesional dan menarik.</p>
                 <a href="/proker/individu/visual-booster-umkm" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
@@ -115,35 +121,70 @@ export default function Proker() {
 
           <div style={{ marginTop: "1.5rem" }} className="grid-cards" data-stagger>
             <article className="card-proker reveal">
-              <div className="thumb"><img src={FotoSumur} /></div>
+              <div className="thumb"><img src={BannerSumur} /></div>
               <div className="body">
                 <span className="badge individu">Proker Individu</span>
                 <h3>Pengujian Kualitas Air Sumur</h3>
-                <p></p>
+                <p>Melakukan pengujian kualitas air sumur sebagai penilaian awal kelayakan air minum bagi masyarakat.</p>
                 <a href="/proker/individu/uji-kualitas-air-sumur" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
 
             <article className="card-proker reveal">
-              <div className="thumb">03</div>
+              <div className="thumb"><img src={BannerSabun} /></div>
               <div className="body">
                 <span className="badge individu">Proker Individu</span>
-                <h3>Visual Booster UMKM</h3>
+                <h3>Pembuatan Sabun Natural</h3>
                 <p>[Deskripsi singkat proker.]</p>
                 <a href="/proker/individu/visual-booster-umkm" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
 
             <article className="card-proker reveal">
-              <div className="thumb"><img src={FotoSIGDIndividu} /></div>
+              <div className="thumb"><img src={BannerBencana} /></div>
               <div className="body">
                 <span className="badge individu">Proker Individu</span>
-                <h3>Sistem Informasi Golongan Darah Tembi</h3>
+                <h3>Pembuatan Peta Rawan Bencana Berbasis Sistem Informasi Geografis</h3>
+                <p style={{ textAling: "justify" }}>Melakukan digitalisasi dan pemetaan data golongan darah warga desa secara terintegrasi.</p>
+                <a href="/proker/individu/ceria" className="card-link">Lihat detail <span className="arrow">→</span></a>
+              </div>
+            </article>
+          </div>
+
+          <div style={{ marginTop: "1.5rem" }} className="grid-cards" data-stagger>
+            <article className="card-proker reveal">
+              <div className="thumb"><img src={BannerCeria} /></div>
+              <div className="body">
+                <span className="badge individu">Proker Individu</span>
+                <h3>
+                  CERIA: Edukasi Gunung Berapi Melalui Simulasi Letusan untuk Anak TK
+                </h3>
+                <p></p>
+                <a href="/proker/individu/ceria" className="card-link">Lihat detail <span className="arrow">→</span></a>
+              </div>
+            </article>
+
+            <article className="card-proker reveal">
+              <div className="thumb"><img src={BannerSabun} /></div>
+              <div className="body">
+                <span className="badge individu">Proker Individu</span>
+                <h3>Pembuatan Sabun Natural</h3>
+                <p>[Deskripsi singkat proker.]</p>
+                <a href="/proker/individu/visual-booster-umkm" className="card-link">Lihat detail <span className="arrow">→</span></a>
+              </div>
+            </article>
+
+            <article className="card-proker reveal">
+              <div className="thumb"><img src={BannerBencana} /></div>
+              <div className="body">
+                <span className="badge individu">Proker Individu</span>
+                <h3>Pembuatan Peta Rawan Bencana Berbasis Sistem Informasi Geografis</h3>
                 <p style={{ textAling: "justify" }}>Melakukan digitalisasi dan pemetaan data golongan darah warga desa secara terintegrasi.</p>
                 <a href="/proker/individu/sistem-informasi-golongan-darah" className="card-link">Lihat detail <span className="arrow">→</span></a>
               </div>
             </article>
           </div>
+
         </div>
       </section>
       <Footer />

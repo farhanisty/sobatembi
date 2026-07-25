@@ -27,7 +27,7 @@ export default function ProkerHero({ children, proker }) {
             <span className="m-val">{proker.status}</span>
           </div>
         </div>
-        <div className="detail-cover reveal" style={{ overflow: "hidden" }}>{children}</div>
+        <div className="detail-cover reveal" style={{ display: "flex", alignItems: "center", overflow: "hidden" }}>{children}</div>
       </div>
     </section>
   )
