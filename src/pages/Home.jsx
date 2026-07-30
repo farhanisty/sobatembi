@@ -34,6 +34,10 @@ export default function Home() {
       badge: "utama"
     },
     {
+      date: "30 Juli 2026",
+      title: "Perpisahan KKN dengan Masyarakat Tembi",
+    },
+    {
       date: "31 Juli 2026",
       title: "Penarikan KKN",
       description: "Dilaksanakan di Kelurahan Timbulharjo.",

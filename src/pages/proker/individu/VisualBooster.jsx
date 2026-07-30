@@ -120,8 +120,7 @@ export default function VisualBooster() {
           </div>
 
           <div className="detail-nav reveal">
-            <a href="proker.html" className="btn btn-outline">← Semua Proker</a>
-            <a href="proker-2.html" className="btn btn-primary">Proker Selanjutnya →</a>
+            <a href="/proker" className="btn btn-outline">← Semua Proker</a>
           </div>
         </div >
       </section >

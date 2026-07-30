@@ -51,13 +51,8 @@ export default function UjiKualitasSmur() {
     },
     {
       date: "26 Juli 2026",
-      title: "Publikasi Hasil Pengujian Kualitas Air Sampel di Lapangan.",
-      description: "Publikasi dilakukan di Expo Gabungan Kelompok 21-24.",
-    },
-    {
-      date: "Maks: 31 Juli 2026",
-      title: "Analisis dan Publikasi Hasil Pengujian Laboratorium",
-      description: "Soon",
+      title: "Publikasi Hasil Pengujian Kualitas Air Sampel",
+      description: "Publikasi dilakukan di perpisahan KKN.",
     },
   ];
 
@@ -196,13 +191,22 @@ export default function UjiKualitasSmur() {
             </p>
 
             <p>
-              Selain pengujian parameter lapangan,  beberapa sampel air juga telah dikirim ke laboratorium untuk dilakukan analisis kandungan Besi (Fe), Mangan (Mn), dan salinitas. Hasil pengujian laboratorium saat ini masih dalam proses analisis dan akan dipublikasikan setelah hasil resmi diterima. Analisis kedua parameter tersebut dilakukan untuk melengkapi informasi kualitas air karena kandungan Fe dan Mn dapat memengaruhi warna, rasa, bau, serta kualitas air untuk berbagai keperluan.
+              Selain pengujian parameter lapangan,  beberapa sampel air juga telah dikirim ke laboratorium untuk dilakukan analisis kandungan Besi (Fe), dan Mangan (Mn). Berdasarkan hasil pengujian laboratorium dan mengacu pada Permenkes Nomor 2 Tahun 2023 tentang Persyaratan Kualitas Air Minum (baku mutu Fe ≤ 0,2 mg/L dan Mn ≤ 0,1 mg/L), diperoleh hasil sebagai berikut:
             </p>
+            <ul>
+              <li>
+                RT 02: Kadar Fe sebesar 1,2856 mg/L dan Mn sebesar 1,7300 mg/L, sehingga keduanya melebihi baku mutu. Air sumur belum memenuhi persyaratan kualitas air minum untuk parameter besi dan mangan serta disarankan dilakukan pengolahan, sebelum digunakan sebagai air minum.
+              </li>
+              <li>
+                RT 08: Kadar Fe sebesar 0,1529 mg/L memenuhi baku mutu, sedangkan Mn sebesar 0,1396 mg/L melebihi baku mutu. Dengan demikian, air sumur belum memenuhi persyaratan kualitas air minum karena kadar mangan masih berada di atas batas yang diperbolehkan.
+              </li>
+
+            </ul>
 
             <div style={{ marginTop: 24, background: "rgba(255, 0, 0, .3)", borderRadius: "12px", padding: 12 }}>
               <h2 style={{ margin: 0, marginBottom: 12 }}>Catatan!!</h2>
               <p>
-                Hasil pengujian yang disajikan merupakan hasil pengukuran awal (screening) berdasarkan parameter pH, TDS, dan DHL. Oleh karena itu, hasil ini tidak dapat dijadikan sebagai satu-satunya acuan bahwa air sumur aman atau layak untuk dikonsumsi secara langsung. Penentuan kelayakan air minum memerlukan pengujian laboratorium yang lebih lengkap, meliputi parameter fisika, kimia, dan mikrobiologi sesuai ketentuan Permenkes Nomor 2 Tahun 2023. Saat ini, hasil analisis Fe dan Mn masih dalam proses laboratorium dan akan dipublikasikan setelah hasil resmi diterima. Masyarakat tetap disarankan untuk mengolah air sebelum dikonsumsi serta melakukan pemeriksaan kualitas air secara berkala, terutama apabila air tersebut digunakan untuk konsumsi.
+                Hasil pengujian yang disajikan merupakan hasil pengukuran awal (screening) berdasarkan parameter pH, TDS, dan DHL, Fe, dan Mn. Oleh karena itu, hasil ini tidak dapat dijadikan sebagai satu-satunya acuan bahwa air sumur aman atau layak untuk dikonsumsi secara langsung. Penentuan kelayakan air minum memerlukan pengujian laboratorium yang lebih lengkap, meliputi parameter fisika, kimia, dan mikrobiologi sesuai ketentuan Permenkes Nomor 2 Tahun 2023. Masyarakat tetap disarankan untuk mengolah air sebelum dikonsumsi serta melakukan pemeriksaan kualitas air secara berkala, terutama apabila air tersebut digunakan untuk konsumsi.
               </p>
             </div>
 
@@ -227,8 +231,7 @@ export default function UjiKualitasSmur() {
           </div>
 
           <div className="detail-nav reveal">
-            <a href="proker.html" className="btn btn-outline">← Semua Proker</a>
-            <a href="/proker/individu/uji-kualitas-air-sumur" className="btn btn-primary">Proker Selanjutnya →</a>
+            <a href="/proker" className="btn btn-outline">← Semua Proker</a>
           </div>
         </div >
       </section >

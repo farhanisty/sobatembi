@@ -104,8 +104,7 @@ export default function Bencana() {
           </div>
 
           <div className="detail-nav reveal">
-            <a href="proker.html" className="btn btn-outline">← Semua Proker</a>
-            <a href="/proker/individu/uji-kualitas-air-sumur" className="btn btn-primary">Proker Selanjutnya →</a>
+            <a href="/proker" className="btn btn-outline">← Semua Proker</a>
           </div>
         </div >
       </section >

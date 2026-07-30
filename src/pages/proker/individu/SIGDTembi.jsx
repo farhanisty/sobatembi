@@ -53,7 +53,7 @@ export default function SIGDTembi() {
       <section style={{ paddingTop: 0 }} >
         <div className="container">
           <div className="prose reveal">
-            <h3>Link: <a style={{ color: "#6C8B08" }} href="https://youtube.com" target="_blank">sigd-tembi.vercel.app</a></h3>
+            <h3>Link: <a style={{ color: "#6C8B08" }} href="http://10.200.53.135:3000" target="_blank">sigd-tembi.vercel.app</a></h3>
             <h2>Latar Belakang</h2>
             <p>
               Dalam situasi darurat medis, <span style={{ fontWeight: 800 }}>kecepatan menemukan pendonor darah yang cocok adalah kunci keselamatan pasien</span>. Sayangnya, proses pencarian pendonor di tingkat desa sering kali terkendala akibat belum adanya pendataan yang terorganisir.
@@ -97,8 +97,7 @@ export default function SIGDTembi() {
           </div>
 
           <div className="detail-nav reveal">
-            <a href="proker.html" className="btn btn-outline">← Semua Proker</a>
-            <a href="/proker/individu/uji-kualitas-air-sumur" className="btn btn-primary">Proker Selanjutnya →</a>
+            <a href="/proker" className="btn btn-outline">← Semua Proker</a>
           </div>
         </div >
       </section >
