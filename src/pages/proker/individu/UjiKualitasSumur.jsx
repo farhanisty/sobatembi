@@ -117,7 +117,7 @@ export default function UjiKualitasSmur() {
 
       <section style={{ paddingTop: 0 }} >
         <div className="container">
-          <div className="prose reveal">
+          <div className="prose reveal in">
             <h2>Latar Belakang</h2>
             <p>
               Sebagai upaya mendukung penyediaan informasi mengenai kondisi kualitas air tanah, Tim KKN-AB 84.022 UPN "Veteran" Yogyakarta melaksanakan kegiatan pengujian kualitas air sumur warga di Dusun Tembi, Kalurahan Timbulharjo, Kapanewon Sewon, Kabupaten Bantul. Kegiatan ini bertujuan untuk memberikan gambaran awal mengenai kondisi kualitas air sumur yang dimanfaatkan masyarakat sebagai sumber air bersih serta menjadi sumber informasi bagi masyarakat dan pemerintah kalurahan dalam menjaga kualitas sumber air tanah.
